@@ -1,0 +1,299 @@
+{
+	"__": {
+		"entityPageSet": {
+			"plugin": {}
+		},
+		"name": "location",
+		"streamId": "locations",
+		"templateType": "JS"
+	},
+	"_site": {
+		"c_aboutMgm": {
+			"headerLinkHeading": "About MGM",
+			"headingLink": [
+				{
+					"label": "About Us",
+					"link": "https://www.mgmtimber.co.uk/about-us",
+					"linkType": "URL"
+				},
+				{
+					"label": "Credit Account",
+					"link": "https://www.mgmtimber.co.uk/media/CreditAppV4.pdf",
+					"linkType": "URL"
+				},
+				{
+					"label": "Environmental",
+					"link": "https://www.mgmtimber.co.uk/environmental",
+					"linkType": "URL"
+				},
+				{
+					"label": "Modern Slavery Statement",
+					"link": "https://www.mgmtimber.co.uk/media/pdf/modern-slavery-statement-2020.pdf",
+					"linkType": "URL"
+				},
+				{
+					"label": "News",
+					"link": "https://www.mgmtimber.co.uk/news",
+					"linkType": "URL"
+				}
+			]
+		},
+		"c_customer_Services": {
+			"headerLinkHeading": "Customer Services",
+			"headingLink": [
+				{
+					"label": "Contact Us",
+					"link": "https://www.mgmtimber.co.uk/contact-us",
+					"linkType": "URL"
+				},
+				{
+					"label": "Find a Branch",
+					"link": "https://www.mgmtimber.co.uk/branch-locator",
+					"linkType": "URL"
+				},
+				{
+					"label": "Get a Quote",
+					"link": "https://www.mgmtimber.co.uk/get-a-quote",
+					"linkType": "URL"
+				},
+				{
+					"label": "Delivery Information",
+					"link": "https://www.mgmtimber.co.uk/delivery-information",
+					"linkType": "URL"
+				},
+				{
+					"label": "Click \u0026 Collect",
+					"link": "https://www.mgmtimber.co.uk/click-collect",
+					"linkType": "URL"
+				},
+				{
+					"label": "Returns \u0026 Refunds",
+					"link": "https://www.mgmtimber.co.uk/returns-policy",
+					"linkType": "URL"
+				},
+				{
+					"label": "FAQs",
+					"link": "https://www.mgmtimber.co.uk/faqs",
+					"linkType": "URL"
+				}
+			]
+		},
+		"c_headerLinks": [
+			{
+				"label": "Timber",
+				"link": "https://www.mgmtimber.co.uk/timber",
+				"linkType": "URL"
+			},
+			{
+				"label": "Landscaping",
+				"link": "https://www.mgmtimber.co.uk/landscaping",
+				"linkType": "URL"
+			},
+			{
+				"label": "Sheet Material",
+				"link": "https://www.mgmtimber.co.uk/sheet-materials",
+				"linkType": "URL"
+			},
+			{
+				"label": "Kitchens Bathrooms",
+				"link": "https://www.mgmtimber.co.uk/kitchens-bathrooms",
+				"linkType": "URL"
+			},
+			{
+				"label": "Doors Windows Joinery",
+				"link": "https://www.mgmtimber.co.uk/doors-windows-joinery",
+				"linkType": "URL"
+			},
+			{
+				"label": "Flooring",
+				"link": "https://www.mgmtimber.co.uk/flooring",
+				"linkType": "URL"
+			},
+			{
+				"label": "Insulation Membranes",
+				"link": "https://www.mgmtimber.co.uk/insulation-membranes",
+				"linkType": "URL"
+			},
+			{
+				"label": "Dry Lining",
+				"link": "https://www.mgmtimber.co.uk/dry-lining",
+				"linkType": "URL"
+			},
+			{
+				"label": "Tools Fixings Ironmongery",
+				"link": "https://www.mgmtimber.co.uk/tools-fixings-ironmongery",
+				"linkType": "URL"
+			}
+		],
+		"c_mgmTimberLogo": {
+			"height": 108,
+			"url": "https://a.mktgcdn.com/p-sandbox/J2k9DLD7jOMVwkA2oOBliEyTVSfD4bqEBZ_5f1iutSw/214x108.jpg",
+			"width": 214
+		},
+		"c_socialIcons": [
+			{
+				"cTA": {
+					"label": "Facebook"
+				},
+				"icon": {
+					"height": 512,
+					"url": "https://a.mktgcdn.com/p-sandbox/wbHWvdY8PNUEA6eSQzTY7DE6scYqGlmdle_UO38jpJ4/512x512.png",
+					"width": 512
+				}
+			},
+			{
+				"cTA": {
+					"label": "Twitter"
+				},
+				"icon": {
+					"height": 1600,
+					"url": "https://a.mktgcdn.com/p-sandbox/n7LYqCC-saSTZrZAaOQyPq25NZ3gMueas8XR4PnhaW8/1600x1600.png",
+					"width": 1600
+				}
+			},
+			{
+				"cTA": {
+					"label": "Linkdin"
+				},
+				"icon": {
+					"height": 218,
+					"url": "https://a.mktgcdn.com/p-sandbox/kTgMDPR9cAoVwtAMay2V0kxJ_ZVdgGnmB5RT1tESp3Q/217x218.jpg",
+					"width": 217
+				}
+			},
+			{
+				"cTA": {
+					"label": "Youtube"
+				},
+				"icon": {
+					"height": 190,
+					"url": "https://a.mktgcdn.com/p-sandbox/iLz9neZYN8rq3CivZm6QqGPQS0QNbf405T27jxpJL-I/293x190.jpg",
+					"width": 293
+				}
+			},
+			{
+				"cTA": {
+					"label": "Instagram"
+				},
+				"icon": {
+					"height": 1600,
+					"url": "https://a.mktgcdn.com/p-sandbox/EIlrNrodMptW7gCUJB8DvGo2OMd3YooBfp1aGt82TTU/1600x1600.png",
+					"width": 1600
+				}
+			},
+			{
+				"cTA": {
+					"label": "Pinterest"
+				},
+				"icon": {
+					"height": 980,
+					"url": "https://a.mktgcdn.com/p-sandbox/IsVUT0hpqgtURG6N-KlivPqVbM6yqzN2EYoYKgZl98E/980x980.png",
+					"width": 980
+				}
+			}
+		],
+		"id": "globleData",
+		"meta": {
+			"entityType": {
+				"id": "ce_headerfooter",
+				"uid": 108220
+			},
+			"locale": "en-GB"
+		},
+		"name": "Globle Data",
+		"uid": 32278947
+	},
+	"address": {
+		"city": "Glasgow",
+		"countryCode": "GB",
+		"line1": "Units 4 \u0026 5 Bleasdale Court",
+		"line2": "Clydebank Business Park",
+		"localizedCountryName": "United Kingdom",
+		"localizedRegionName": "United Kingdom",
+		"postalCode": "G81 2LE",
+		"region": "United Kingdom",
+		"sublocality": "Clydebank"
+	},
+	"businessId": 3191782,
+	"hours": {
+		"friday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "16:00",
+					"start": "07:30"
+				}
+			]
+		},
+		"monday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "16:30",
+					"start": "07:30"
+				}
+			]
+		},
+		"saturday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "12:00",
+					"start": "08:00"
+				}
+			]
+		},
+		"sunday": {
+			"isClosed": true
+		},
+		"thursday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "16:30",
+					"start": "07:30"
+				}
+			]
+		},
+		"tuesday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "16:30",
+					"start": "07:30"
+				}
+			]
+		},
+		"wednesday": {
+			"isClosed": false,
+			"openIntervals": [
+				{
+					"end": "16:30",
+					"start": "07:30"
+				}
+			]
+		}
+	},
+	"id": "glasgow",
+	"key": "0:location:knowledgeGraph:32143704:en-GB",
+	"locale": "en-GB",
+	"mainPhone": "+441414353424",
+	"meta": {
+		"entityType": {
+			"id": "location",
+			"uid": 0
+		},
+		"locale": "en-GB"
+	},
+	"name": "MGM Glasgow",
+	"siteDomain": "",
+	"siteId": 0,
+	"siteInternalHostName": "",
+	"slug": "glasgow.html",
+	"timezone": "Europe/London",
+	"uid": 32143704,
+	"yextDisplayCoordinate": {
+		"latitude": 55.9054193,
+		"longitude": -4.407848599999999
+	}
+}
