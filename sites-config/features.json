@@ -80,7 +80,13 @@
     {
       "$id": "Locator",
       "fields": [
-        "name"
+        "name",
+        "c_mgmTimberLogo",
+        "c_headerLinks",
+        "c_footerDescription",
+        "c_socialIcons",
+        "c_customer_Services",
+        "c_aboutMgm"
       ],
       "filter": {
         "entityIds": [
