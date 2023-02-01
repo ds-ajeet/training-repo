@@ -38,6 +38,9 @@
 				}
 			]
 		},
+		"c_cookiePolicy": {
+			"label": "Cookie Policy"
+		},
 		"c_customer_Services": {
 			"headerLinkHeading": "Customer Services",
 			"headingLink": [
@@ -78,6 +81,7 @@
 				}
 			]
 		},
+		"c_footerDescription": "MGM Timber \\- Copyright © 2023. All Rights Reserved, all 3rd party trademarks acknowledged.",
 		"c_headerLinks": [
 			{
 				"label": "Timber",
@@ -125,10 +129,23 @@
 				"linkType": "URL"
 			}
 		],
+		"c_jdGroups": {
+			"height": 36,
+			"url": "https://a.mktgcdn.com/p-sandbox/nogfz58irpjgqky543uFAOpl4gbkPObut-DwB5KIAt8/480x36.png",
+			"width": 480
+		},
 		"c_mgmTimberLogo": {
 			"height": 108,
 			"url": "https://a.mktgcdn.com/p-sandbox/J2k9DLD7jOMVwkA2oOBliEyTVSfD4bqEBZ_5f1iutSw/214x108.jpg",
 			"width": 214
+		},
+		"c_payment": {
+			"height": 74,
+			"url": "https://a.mktgcdn.com/p-sandbox/TsQ-AmbjbRDYPGbX6IsoJUYrlnHiVdFdigj6F7fH_xw/790x74.png",
+			"width": 790
+		},
+		"c_privacyPolicy": {
+			"label": "Privacy Policy"
 		},
 		"c_socialIcons": [
 			{
@@ -166,9 +183,9 @@
 					"label": "Youtube"
 				},
 				"icon": {
-					"height": 190,
-					"url": "https://a.mktgcdn.com/p-sandbox/iLz9neZYN8rq3CivZm6QqGPQS0QNbf405T27jxpJL-I/293x190.jpg",
-					"width": 293
+					"height": 119,
+					"url": "https://a.mktgcdn.com/p-sandbox/E7PzDTNEvm2J2oDjYzej7Fsq2SkZsgfNSshWgBW6Pf8/119x119.png",
+					"width": 119
 				}
 			},
 			{
@@ -192,6 +209,10 @@
 				}
 			}
 		],
+		"c_termAndConditioon": {
+			"label": "Terms \u0026 Conditions"
+		},
+		"headline": "Follow Us",
 		"id": "globleData",
 		"meta": {
 			"entityType": {

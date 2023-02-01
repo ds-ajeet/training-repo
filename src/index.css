@@ -483,7 +483,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .copyright-bx .social-media-bx{ @apply justify-center lg:justify-start}
 .store-locator .store-inner{@apply relative w-1/2 lg:w-auto text-base lg:text-xl mb-4 after:content-[''] after:absolute font-medium justify-center flex items-center flex-col after:border-r lg:after:h-auto lg:after:border-b after:border-black after:-top-2 lg:after:top-auto after:-bottom-2 after:right-0 lg:after:right-auto left-auto lg:after:left-1/4  after:w-1/2  after:last:hidden }
 .store-locator .store-inner a{@apply mt-2 hover:underline font-semibold}
-.company-logo{ @apply  mt-7 lg:mt-10 }
+.company-logo{ @apply  mt-2 lg:mt-0 }
 .social-media-bx{@apply flex-row flex w-full my-5 }
 .social-media-bx li{@apply mx-3}
 .social-media-bx li a{@apply transform transition-all duration-300 scale-100 hover:scale-105 inline-block}
@@ -638,4 +638,27 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   .storelocation-openCloseTime table.day-hrs .currentDay .dayName .checked{@apply left-1}
 }
 
+.policy a{
+  margin-right: 10px;
+  font-size: 12px;
+
+
+}
+.policy a:hover{
+  color: #63aaec;
+
+}
+.paymentImg{
+  margin-left: 22rem;
+}
+.socialmedia{
+  padding-top: 1.5%;
+
+}
+.socialmedias{
+  padding-top:6%;
+}
+.socialmediaData{
+  margin-right: 40%;
+}
 

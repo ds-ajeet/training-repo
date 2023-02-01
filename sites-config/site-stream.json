@@ -11,7 +11,13 @@
     "c_footerDescription",
     "c_socialIcons",
     "c_customer_Services",
-    "c_aboutMgm"
+    "c_aboutMgm",
+    "headline",
+    "c_termAndConditioon",
+    "c_privacyPolicy",
+    "c_cookiePolicy",
+    "c_jdGroups",
+    "c_payment"
 
   ],
   "localization": {
