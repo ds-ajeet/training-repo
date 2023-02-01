@@ -240,7 +240,7 @@ const Footer = (props: any) => {
           </div>
           <div style={{ color: "#7b7b7b" }}>
             <div
-              style={{ width: "1350px", color: "#e9e9e9" }}
+              style={{ width: "1150px", color: "#e9e9e9" }}
               className="policy grid grid-cols-2"
             >
                <div className="termcondition">
