@@ -176,26 +176,26 @@
 import * as React from "react";
 // import logo from "../../images/mgmlogo.jpg";
 // import logo from "../../images/Prezzo_Logo_RGB_OffWhite.png";
-import pizzaLogo from "../../images/mgmlogo.jpg"
+// import pizzaLogo from "../../images/mgmlogo.jpg"
 
-var currentTime = new Date()
-var year = currentTime.getFullYear()
+// var currentTime = new Date()
+// var year = currentTime.getFullYear()
 
-type Link = {
-   label: string;
-   url: string;
-};
+// type Link = {
+//    label: string;
+//    url: string;
+// };
 
-const links: Link[] = [
-   {
-      label: "Privacy Policy",
-      url: "/",
-   },
-   {
-      label: "Copyright/Legal Info",
-      url: "/copyright"
-   },
-];
+// const links: Link[] = [
+//    {
+//       label: "Privacy Policy",
+//       url: "/",
+//    },
+//    {
+//       label: "Copyright/Legal Info",
+//       url: "/copyright"
+//    },
+// ];
 
 
 
@@ -215,10 +215,29 @@ const Footer = (props: any) => {
 
    return (
       <>
-         <footer
-           
-            >
-            <div style={{background: "#1e293e", color: "white"}} className="footer">
+         <footer  className="site-footer">
+            <div></div>
+            <div style={{background:"#1e293e"}} className="container bg-red">
+               <div className="store-locator">
+                  <div className="company-logo mr-2">
+                     <img src={props._site.c_mgmTimberLogo.url} alt="logo"/>
+ 							</div>
+                  </div>
+                  <div style={{color:"#fff"}}>
+                  <h2>{props._site?.c_customer_Services.headerLinkHeading}</h2>
+                  <ul>
+                     <li><a href="#" title="">{customerService}</a></li>
+                  </ul>
+                  </div>
+                  <div style={{color:"#fff"}} className="column">
+                     <h5>{props._site.c_aboutMgm.headerLinkHeading}</h5>
+                     <ul>
+                        <li><a href="#" title="Main Menu">{Aboutm}</a></li>
+                     </ul>
+                  </div>
+                 
+            </div>
+            {/* <div style={{background: "#1e293e", color: "white"}} className="footer">
                <div className="footer_links">
                   <div  className="column pb-4">
                   {
@@ -229,12 +248,12 @@ const Footer = (props: any) => {
                 } 
                      <div className="social-media">
                      <div className="contact-links ml-12 mt-12">
-                     </div>  
+                     </div>   */}
                      {/* <div className="jds-group ml-12 mt-10">
                         <img loading="lazy" src="https://www.mgmtimber.co.uk/static/version1674641584/frontend/mgmtimber/default/en_GB/images/jd-group.png" alt="Part of the JDS Group" width="374" height="21"/>
                      </div>  */}
                 
-                     </div>
+                     {/* </div>
                   </div>
                   <div className="column">
                      <h5>{props._site?.c_customer_Services.headerLinkHeading}</h5>
@@ -270,7 +289,7 @@ const Footer = (props: any) => {
                   </div>
                </div>
             </div>
-
+ */}
 
 
 

@@ -11,6 +11,7 @@ import { nearByLocation } from "../types/nearByLocation";
 import Logo from "../images/logo-header.svg"
 import offerBanner from "../images/offer-banner.jpg"
 import IframeMap from "../components/locationDetail/IframeMap";
+import Header from "../components/layouts/header";
 import "../index.css";
 import {
   Template,
@@ -48,6 +49,7 @@ import FeaturesBrand from "../components/locationDetail/FeaturesBrand";
 import { Fade, Slide } from "react-awesome-reveal";
 import MgmTimber from "../components/locationDetail/MgmTimber";
 import { AnswerExperienceConfig } from "../config/answersHeadlessConfig";
+
 
 /**
  * Required when Knowledge Graph data is used for a template.
@@ -440,7 +442,9 @@ breadcrumbScheme.push({
       >
         {" "}
         <AnalyticsScopeProvider name={""}>
-      <PageLayout global={_site}>
+      {/* <PageLayout global={_site}> */}
+      <Header _site={_site}/>
+      
 
 
       <div className="container">
@@ -478,9 +482,10 @@ breadcrumbScheme.push({
           
         </div>
 
-      </PageLayout>
+      {/* </PageLayout> */}
       </AnalyticsScopeProvider>
       </AnalyticsProvider>
+      <Footer _site={_site}/>
     </>
   );
 };

@@ -68,51 +68,51 @@ import * as React from "react";
 import logo from "../../images/mgmlogo.jpg";
 
 
-type Link = {
-  label: string;
-  url: string;
-};
+// type Link = {
+//   label: string;
+//   url: string;
+// };
 
 
-const links: Link[] = [
-  {
-    label: "Timber",
-    url: "/",
-  },
-  {
-    label: "Landscaping",
-    url: "#",
-  },
-  {
-    label: "Sheet Materials",
-    url: "#",
-  },
-  {
-    label: "Kitchens & Bathrooms",
-    url: "#",
-  },
-  {
-    label: "Doors, Windows & Joinery",
-    url: "#",
-  },
-  {
-    label: "Flooring",
-    url: "#",
-  },
-  {
-    label: "Insulation & Membranes",
-    url: "#",
-  },
-  {
-    label: "Dry Lining",
-    url: "#",
-  },
-  {
-    label: "Tools",
-    url: "#",
-  }
+// const links: Link[] = [
+//   {
+//     label: "Timber",
+//     url: "/",
+//   },
+//   {
+//     label: "Landscaping",
+//     url: "#",
+//   },
+//   {
+//     label: "Sheet Materials",
+//     url: "#",
+//   },
+//   {
+//     label: "Kitchens & Bathrooms",
+//     url: "#",
+//   },
+//   {
+//     label: "Doors, Windows & Joinery",
+//     url: "#",
+//   },
+//   {
+//     label: "Flooring",
+//     url: "#",
+//   },
+//   {
+//     label: "Insulation & Membranes",
+//     url: "#",
+//   },
+//   {
+//     label: "Dry Lining",
+//     url: "#",
+//   },
+//   {
+//     label: "Tools",
+//     url: "#",
+//   }
 
-];
+// ];
 
 const Header = (props: any) => {
   // console.log(props)
@@ -123,15 +123,15 @@ const Header = (props: any) => {
     (document.getElementById("body") as HTMLInputElement).classList.toggle('');
   };
   const linkDoms = props?._site?.c_headerLinks?.map((link:any) => (
-    <a style={{ font: "caption", color: "black" }} className="navbar-item" href={link.link} >
+    <a style={{ font: "caption", color: "black" }} className="navbar-item" href="#" >
       <span>{link.label}</span>
     </a>
   ));
 
   return (
     <>
-      <div style={{background:"white"}} id="header" className="header-nav">
-        <div style={{marginLeft:"58px"}} className="container header-content">
+      <div style={{background:"white",height:"100px"}} id="header" className="header-nav">
+        <div style={{marginLeft:"25px"}} className="container header-content">
           {/* <div className="header-content-left">
             <a className="button" href="#">
               <span className="is-hidden-touch">Find a restaurant</span></a>
@@ -142,7 +142,7 @@ const Header = (props: any) => {
               <img className="" src={logo} alt="mgm-timber"/>
             </a>
           </div> */}
-          <div className="logo" >
+          <div style={{width:"11%"}} className="logo pt-4" >
                 {
                 props._site.c_mgmTimberLogo?
                 <img src={props._site.c_mgmTimberLogo.url} alt="logo"/>:
