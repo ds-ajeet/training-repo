@@ -687,3 +687,26 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .termcondition{
   padding-top: 25px;
 }
+.aboutUs{
+  background: white;
+
+}
+.aboutusName{
+  text-align: center;
+  font-size: 2.4375rem;
+  color: rgb(2 166 219 / var(--tw-text-opacity));
+}
+.aboutName{
+  padding-top: 5%;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.imga{
+  width: 90%;
+  height: 100%;
+  margin-left: 10px;
+}
+.desc{
+  padding-right: 10%;
+}

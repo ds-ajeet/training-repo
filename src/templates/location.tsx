@@ -8,10 +8,11 @@ import { CustomFieldDebuggerReactProvider } from '@yext/custom-field-debugger';
 import { JsonLd } from "react-schemaorg";
 import Opening from "../components/commons/openClose";
 import { nearByLocation } from "../types/nearByLocation";
-import Logo from "../images/logo-header.svg"
-import offerBanner from "../images/offer-banner.jpg"
+// import Logo from "../images/logo-header.svg"
+// import offerBanner from "../images/offer-banner.jpg"
 import IframeMap from "../components/locationDetail/IframeMap";
 import Header from "../components/layouts/header";
+import FAQs from "../components/locationDetail/Faqs1";
 import "../index.css";
 import {
   Template,
@@ -71,6 +72,10 @@ export const config: TemplateConfig = {
       "timezone",
       "yextDisplayCoordinate",
       "displayCoordinate",
+      "c_about",
+      "c_banner",
+      "c_faq.question",
+      "c_faq.answer"
       //"cityCoordinate"
     ],
     // Defines the scope of entities that qualify for this stream.
@@ -275,6 +280,9 @@ const Location: Template<ExternalApiRenderData> = ({
     yextDisplayCoordinate,
     displayCoordinate,
     cityCoordinate,
+    c_about,
+    c_banner,
+    c_faq,
     name
   } = document;
 
@@ -399,7 +407,6 @@ breadcrumbScheme.push({
   console.log(document)
   let bannerimage = c_banner_image && c_banner_image.image.url;
 
-
   return (
 
     <>
@@ -444,12 +451,14 @@ breadcrumbScheme.push({
         <AnalyticsScopeProvider name={""}>
       {/* <PageLayout global={_site}> */}
       <Header _site={_site}/>
+      <Banner/>
+
       
 
 
       <div className="container">
             <div className='banner-text banner-dark-bg justify-center text-center'>
-              <h1 className="">{name} {name}</h1>
+              <h1 className="">{name}</h1>
                 <div className="openClosestatus detail-page closeing-div">
                   <OpenClose timezone={timezone} hours={hours} />
                 </div> 
@@ -469,6 +478,17 @@ breadcrumbScheme.push({
               </div>
           }
         </div>
+        <div className="aboutUs inline-block w-full">
+        <div className="aboutusName">{c_about.cTA.label}</div>
+      <div className="aboutName flex flex-wrap">
+        <div className="w-1/2">
+      <img src={c_about.img.url} className="imga"/></div>
+      <div className="desc w-1/2">
+      {c_about.description}
+      </div>
+      </div>
+      
+      </div>
   
         <div className="nearby-sec">
           <div className="container">
@@ -485,6 +505,8 @@ breadcrumbScheme.push({
       {/* </PageLayout> */}
       </AnalyticsScopeProvider>
       </AnalyticsProvider>
+      
+      <FAQs faqs={c_faq}/>
       <Footer _site={_site}/>
     </>
   );

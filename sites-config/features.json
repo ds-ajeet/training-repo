@@ -63,7 +63,11 @@
         "slug",
         "timezone",
         "yextDisplayCoordinate",
-        "displayCoordinate"
+        "displayCoordinate",
+        "c_about",
+        "c_banner",
+        "c_faq.question",
+        "c_faq.answer"
       ],
       "filter": {
         "entityTypes": [
