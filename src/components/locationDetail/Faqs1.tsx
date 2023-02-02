@@ -1,6 +1,7 @@
 import * as React from "react"
+import "./styles.css";
 export default function FAQs(props:any){
-    console.log(props.faqs,"c_featuredFAQs")
+    console.log(props.faqs,"c_f")
  return(
     <>
 <div className="flex w-full" style={{backgroundColor:"white"}}>
@@ -10,11 +11,11 @@ export default function FAQs(props:any){
             <>           
             <div className="flex w-full" style={{fontSize:"10px",marginTop:"40px"}}>
                 <div className="nearby-sec-inner">  
-            <div className="nearby-card">         
-             {j.question}
-             <br/>
-             <br/>
+            <div className="nearby-card"> 
+            <details>
+            <summary>{j.question}</summary>
              {j.answer}
+             </details>        
              </div>
              </div>             
              </div>

@@ -507,13 +507,13 @@ breadcrumbScheme.push({
       </AnalyticsProvider>
       <div>
       <FAQs faqs={c_faq}/>
-      <Cta
+     {/* <Cta 
                 buttonText="Order"
                 url="#"
-                style="text-orange bg-white shadow-xl"
+                style="text-orange bg-red shadow-xl"
         
 
-      ></Cta>
+      ></Cta> */}
       </div>
       <Footer _site={_site}/>
     </>
