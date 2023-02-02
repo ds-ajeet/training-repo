@@ -650,15 +650,40 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 }
 .paymentImg{
   margin-left: 22rem;
+  width: 75%;
 }
 .socialmedia{
   padding-top: 1.5%;
 
 }
 .socialmedias{
-  padding-top:6%;
+  padding-top:30%;
 }
 .socialmediaData{
   margin-right: 30%;
 }
 
+.subscribe{
+  height: 20%;
+  width: 160%;
+}
+.inputfrom{
+  width: 60%;
+  padding: 6px;
+  line-height: 30px;
+  border-radius: 4px;
+  text-align: center;
+}
+.subscribButton{
+  background: #0078b8;
+  color: #fff;
+  padding: 6px;
+  line-height: 30px;
+  border-radius: 4px;
+  width: 35%;
+  margin-left: 5%;
+  
+}
+.termcondition{
+  padding-top: 25px;
+}

@@ -216,7 +216,7 @@ const Footer = (props: any) => {
           </div>
           <div style={{marginRight:"15%"}} className="otherLinks">
                {/* <div style={{marginRight:"180px"}}> */}
-                  <div><SubscribeForm/></div>
+                  <div className="subscribe"><SubscribeForm/></div>
             {/* </div> */}
             <div className="socialmediaData">
               <h5 style={{ color: "white" }} className="socialmedias">
@@ -238,6 +238,7 @@ const Footer = (props: any) => {
               </ul>
             </div>
           </div>
+          <div><img src={props._site.c_jdGroups.url} width="260px" alt="logo" /></div>
           <div style={{ color: "#7b7b7b" }}>
             <div
               style={{ width: "1150px", color: "#e9e9e9" }}
@@ -249,11 +250,11 @@ const Footer = (props: any) => {
               <a href="#">{props._site.c_termAndConditioon.label}</a>
               </div>
               <div className="paymentImg">
-                <img src={props._site.c_payment.url} width="350px" alt="logo" />
+                <img src={props._site.c_payment.url} alt="logo" />
               </div>
             </div>
 
-            <div className="mt-0">{props._site.c_footerDescription}</div>
+            <div className="mt-2">{props._site.c_footerDescription}</div>
           </div>
         </div>
         

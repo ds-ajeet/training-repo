@@ -1,8 +1,8 @@
 {
   "bundlePaths": {
-    "404": "assets/server/404.3f5e2ae3.js",
-    "location": "assets/server/location.77c9c3dc.js",
-    "locator": "assets/server/locator.adaef2f4.js",
+    "404": "assets/server/404.de079dad.js",
+    "location": "assets/server/location.ec994f5b.js",
+    "locator": "assets/server/locator.263c687b.js",
     "robots": "assets/server/robots.7f2be794.js"
   },
   "projectFilepaths": {
@@ -42,13 +42,21 @@
       "file": "assets/static/watch-icn-12e4a5d9.svg",
       "src": "src/images/watch-icn.svg"
     },
+    "src/images/map-center.svg": {
+      "file": "assets/static/map-center-30f9adc5.svg",
+      "src": "src/images/map-center.svg"
+    },
     "src/images/MGMhover1.svg": {
       "file": "assets/static/MGMhover1-bbbef0ea.svg",
       "src": "src/images/MGMhover1.svg"
     },
-    "src/images/map-center.svg": {
-      "file": "assets/static/map-center-30f9adc5.svg",
-      "src": "src/images/map-center.svg"
+    "src/images/shape-t.svg": {
+      "file": "assets/static/shape-t-4e865b2a.svg",
+      "src": "src/images/shape-t.svg"
+    },
+    "src/images/shape-b.svg": {
+      "file": "assets/static/shape-b-bdecdd2a.svg",
+      "src": "src/images/shape-b.svg"
     },
     "src/images/dots.svg": {
       "file": "assets/static/dots-c532748f.svg",
@@ -62,68 +70,60 @@
       "file": "assets/static/minus-sym-f0f517fd.svg",
       "src": "src/images/minus-sym.svg"
     },
-    "src/images/shape-b.svg": {
-      "file": "assets/static/shape-b-bdecdd2a.svg",
-      "src": "src/images/shape-b.svg"
-    },
-    "src/images/shape-t.svg": {
-      "file": "assets/static/shape-t-4e865b2a.svg",
-      "src": "src/images/shape-t.svg"
-    },
     "src/images/newsletter-bg.png": {
       "file": "assets/static/newsletter-bg-6b390772.png",
       "src": "src/images/newsletter-bg.png"
     },
     "dist/hydration_templates/404.tsx": {
-      "file": "assets/hydrate/404.e3e37dae.js",
+      "file": "assets/hydrate/404.29650961.js",
       "src": "dist/hydration_templates/404.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/404.tsx",
-        "_jsx-runtime-4c8a9626.js",
+        "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js",
         "_global-33848ab1.js"
       ]
     },
     "src/templates/404.tsx": {
-      "file": "assets/server/404.3f5e2ae3.js",
+      "file": "assets/server/404.de079dad.js",
       "src": "src/templates/404.tsx",
       "isEntry": true,
       "imports": [
         "_global-33848ab1.js",
-        "_jsx-runtime-4c8a9626.js",
+        "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js"
       ]
     },
     "dist/hydration_templates/location.tsx": {
-      "file": "assets/hydrate/location.900c1f75.js",
+      "file": "assets/hydrate/location.e8237570.js",
       "src": "dist/hydration_templates/location.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/location.tsx",
-        "_jsx-runtime-4c8a9626.js",
+        "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js",
-        "_answersHeadlessConfig-6c2a6ab5.js",
+        "_answersHeadlessConfig-c2b31bc8.js",
         "_global-33848ab1.js",
         "_preload-helper-094304c8.js"
       ]
     },
     "src/templates/location.tsx": {
-      "file": "assets/server/location.77c9c3dc.js",
+      "file": "assets/server/location.ec994f5b.js",
       "src": "src/templates/location.tsx",
       "isEntry": true,
       "imports": [
         "_index-3fef7104.js",
-        "_jsx-runtime-4c8a9626.js",
-        "_answersHeadlessConfig-6c2a6ab5.js",
+        "_jsx-runtime-73b0c7e6.js",
+        "_answersHeadlessConfig-c2b31bc8.js",
         "_index-93eca02a.js",
         "_global-33848ab1.js",
         "_preload-helper-094304c8.js"
       ],
       "dynamicImports": [
-        "_answersHeadlessConfig-6c2a6ab5.js"
+        "_answersHeadlessConfig-c2b31bc8.js"
       ],
       "assets": [
         "assets/static/map-05379a2e.svg",
@@ -131,27 +131,27 @@
       ]
     },
     "dist/hydration_templates/locator.tsx": {
-      "file": "assets/hydrate/locator.f96406c7.js",
+      "file": "assets/hydrate/locator.60c46cb8.js",
       "src": "dist/hydration_templates/locator.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/locator.tsx",
-        "_jsx-runtime-4c8a9626.js",
+        "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js",
-        "_answersHeadlessConfig-6c2a6ab5.js",
+        "_answersHeadlessConfig-c2b31bc8.js",
         "_global-33848ab1.js",
         "_server.browser-ba80ba4b.js"
       ]
     },
     "src/templates/locator.tsx": {
-      "file": "assets/server/locator.adaef2f4.js",
+      "file": "assets/server/locator.263c687b.js",
       "src": "src/templates/locator.tsx",
       "isEntry": true,
       "imports": [
-        "_answersHeadlessConfig-6c2a6ab5.js",
+        "_answersHeadlessConfig-c2b31bc8.js",
         "_index-3fef7104.js",
-        "_jsx-runtime-4c8a9626.js",
+        "_jsx-runtime-73b0c7e6.js",
         "_server.browser-ba80ba4b.js",
         "_global-33848ab1.js"
       ],
@@ -191,8 +191,8 @@
         "_index-3fef7104.js"
       ]
     },
-    "_jsx-runtime-4c8a9626.js": {
-      "file": "assets/static/jsx-runtime-4c8a9626.js",
+    "_jsx-runtime-73b0c7e6.js": {
+      "file": "assets/static/jsx-runtime-73b0c7e6.js",
       "imports": [
         "_index-3fef7104.js"
       ]
@@ -200,16 +200,16 @@
     "_global-33848ab1.js": {
       "file": "assets/static/global-33848ab1.js"
     },
-    "_answersHeadlessConfig-6c2a6ab5.js": {
-      "file": "assets/static/answersHeadlessConfig-6c2a6ab5.js",
+    "_answersHeadlessConfig-c2b31bc8.js": {
+      "file": "assets/static/answersHeadlessConfig-c2b31bc8.js",
       "isDynamicEntry": true,
       "imports": [
-        "_jsx-runtime-4c8a9626.js",
+        "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js",
         "_global-33848ab1.js"
       ],
       "css": [
-        "assets/static/answersHeadlessConfig-75c17c11.css"
+        "assets/static/answersHeadlessConfig-eee34edd.css"
       ],
       "assets": [
         "assets/static/MGMpin-0521d029.svg",
@@ -226,7 +226,7 @@
       "src": "src/templates/locator.css"
     },
     "answersHeadlessConfig.css": {
-      "file": "assets/static/answersHeadlessConfig-75c17c11.css",
+      "file": "assets/static/answersHeadlessConfig-eee34edd.css",
       "src": "answersHeadlessConfig.css"
     }
   }
