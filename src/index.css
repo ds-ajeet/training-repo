@@ -649,8 +649,8 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 
 }
 .paymentImg{
-  margin-left: 22rem;
-  width: 75%;
+  margin-left: 20rem;
+  width: 70%;
 }
 .socialmedia{
   padding-top: 1.5%;
