@@ -479,7 +479,7 @@ breadcrumbScheme.push({
           }
         </div>
         <div className="aboutUs inline-block w-full">
-        <div className="aboutusName">{c_about.cTA.label}</div>
+        <div className="aboutusName"><a href="#">{c_about.cTA.label}</a></div>
       <div className="aboutName flex flex-wrap">
         <div className="w-1/2">
       <img src={c_about.img.url} className="imga"/></div>
@@ -505,8 +505,16 @@ breadcrumbScheme.push({
       {/* </PageLayout> */}
       </AnalyticsScopeProvider>
       </AnalyticsProvider>
-      
+      <div>
       <FAQs faqs={c_faq}/>
+      <Cta
+                buttonText="Order"
+                url="#"
+                style="text-orange bg-white shadow-xl"
+        
+
+      ></Cta>
+      </div>
       <Footer _site={_site}/>
     </>
   );
