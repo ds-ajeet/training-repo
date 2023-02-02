@@ -8,7 +8,7 @@ export default function FAQs(props:any){
    { props.faqs && props.faqs?.map((j:any)=>{
         return(
             <>           
-            <div className="flex w-full" style={{fontSize:"20px",marginTop:"40px"}}>
+            <div className="flex w-full" style={{fontSize:"10px",marginTop:"40px"}}>
                 <div className="nearby-sec-inner">  
             <div className="nearby-card">         
              {j.question}
