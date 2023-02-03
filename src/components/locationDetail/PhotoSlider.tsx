@@ -4,13 +4,13 @@ import '@splidejs/react-splide/css';
 
 const PhotoSlider = (props: any) => {
   // const { photoGallery, height, width } = props;  
-  const photos = props?.c_banner?.map((element:any) => (   
+  const photos = props.c_banner && props.c_banner?.map((element:any) => (   
 
 	<SplideSlide>
-    <img height={height} width={width} src={element.url} />
+    <img  src={element.url} />
 	</SplideSlide>    
   ));
-  console.log(photos,"ppp");
+  // console.log(photos,"ppp");
   return (
     <>
 	  <Splide aria-label="Photo Slider">

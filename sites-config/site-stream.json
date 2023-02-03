@@ -8,6 +8,7 @@
     "name",
     "c_mgmTimberLogo",
     "c_headerLinks",
+    "c_headerFirst",
     "c_footerDescription",
     "c_socialIcons",
     "c_customer_Services",
@@ -17,7 +18,8 @@
     "c_privacyPolicy",
     "c_cookiePolicy",
     "c_jdGroups",
-    "c_payment"
+    "c_payment",
+    "c_countact"
 
   ],
   "localization": {

@@ -177,11 +177,11 @@ const Footer = (props: any) => {
       </a>
     )
   );
-  //  const term = props?._site?.c_termAndConditioon?.map((link: any) => (
-  //    <a  className="navbar-item" href="#" >
-  //      <span>{link.label}</span><br />
-  //    </a>
-  //  ));
+   const countact = props?._site?.c_countact?.map((link: any) => (
+     <a  className="navbar-item" href="#" >
+       <span>{link.label}</span><br />
+     </a>
+   ));
   return (
     <>
       <footer
@@ -193,6 +193,7 @@ const Footer = (props: any) => {
             <div className="company-logo">
               <img src={props._site.c_mgmTimberLogo.url} alt="logo" />
             </div>
+            <div className="countact">{countact}</div>
           </div>
           <div style={{ color: "#fff" }}>
             <h2>{props._site?.c_customer_Services.headerLinkHeading}</h2>
@@ -204,11 +205,11 @@ const Footer = (props: any) => {
               </li>
             </ul>
           </div>
-          <div style={{ color: "#fff" }} className="column">
+          <div className="column">
             <h2>{props._site.c_aboutMgm.headerLinkHeading}</h2>
-            <ul className="pt-4">
+            <ul className="f_abouts pt-4">
               <li style={{ paddingTop: "15px" }}>
-                <a href="#" title="Main Menu">
+                <a href="#" title="">
                   {Aboutm}
                 </a>
               </li>
@@ -238,7 +239,8 @@ const Footer = (props: any) => {
               </ul>
             </div>
           </div>
-          <div><img src={props._site.c_jdGroups.url} width="260px" alt="logo" /></div>
+          
+          <div style={{paddingTop:"50px"}}><img src={props._site.c_jdGroups.url} width="260px" alt="logo" /></div>
           <div style={{ color: "#7b7b7b" }}>
             <div
               style={{ width: "1150px", color: "#e9e9e9" }}
@@ -257,7 +259,6 @@ const Footer = (props: any) => {
             <div className="mt-2">{props._site.c_footerDescription}</div>
           </div>
         </div>
-        
       </footer>
       
     </>

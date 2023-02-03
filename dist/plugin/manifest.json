@@ -1,8 +1,8 @@
 {
   "bundlePaths": {
     "404": "assets/server/404.de079dad.js",
-    "location": "assets/server/location.d5a9e93f.js",
-    "locator": "assets/server/locator.ded7d2b8.js",
+    "location": "assets/server/location.01422767.js",
+    "locator": "assets/server/locator.993a2240.js",
     "robots": "assets/server/robots.7f2be794.js"
   },
   "projectFilepaths": {
@@ -22,21 +22,17 @@
         "_server.browser-ba80ba4b.js"
       ]
     },
-    "src/images/phone.svg": {
-      "file": "assets/static/phone-057118a0.svg",
-      "src": "src/images/phone.svg"
-    },
     "src/images/map.svg": {
       "file": "assets/static/map-05379a2e.svg",
       "src": "src/images/map.svg"
     },
+    "src/images/phone.svg": {
+      "file": "assets/static/phone-057118a0.svg",
+      "src": "src/images/phone.svg"
+    },
     "src/images/MGMpin.svg": {
       "file": "assets/static/MGMpin-0521d029.svg",
       "src": "src/images/MGMpin.svg"
-    },
-    "src/images/MGM_About_Us_Image.webp": {
-      "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
-      "src": "src/images/MGM_About_Us_Image.webp"
     },
     "src/images/red-map.svg": {
       "file": "assets/static/red-map-55834b8a.svg",
@@ -101,7 +97,7 @@
       ]
     },
     "dist/hydration_templates/location.tsx": {
-      "file": "assets/hydrate/location.5137e4f8.js",
+      "file": "assets/hydrate/location.6da52609.js",
       "src": "dist/hydration_templates/location.tsx",
       "isEntry": true,
       "imports": [
@@ -109,34 +105,36 @@
         "src/templates/location.tsx",
         "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js",
-        "_answersHeadlessConfig-8e71cdf9.js",
+        "_answersHeadlessConfig-cfe6ff71.js",
         "_global-33848ab1.js",
         "_preload-helper-094304c8.js"
       ]
     },
     "src/templates/location.tsx": {
-      "file": "assets/server/location.d5a9e93f.js",
+      "file": "assets/server/location.01422767.js",
       "src": "src/templates/location.tsx",
       "isEntry": true,
       "imports": [
-        "_answersHeadlessConfig-8e71cdf9.js",
-        "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js",
+        "_jsx-runtime-73b0c7e6.js",
+        "_answersHeadlessConfig-cfe6ff71.js",
         "_index-93eca02a.js",
         "_global-33848ab1.js",
         "_preload-helper-094304c8.js"
       ],
       "dynamicImports": [
-        "_answersHeadlessConfig-8e71cdf9.js"
+        "_answersHeadlessConfig-cfe6ff71.js"
+      ],
+      "css": [
+        "assets/static/location-55d13414.css"
       ],
       "assets": [
-        "assets/static/MGM_About_Us_Image-a59243fd.webp",
         "assets/static/map-05379a2e.svg",
         "assets/static/phone-057118a0.svg"
       ]
     },
     "dist/hydration_templates/locator.tsx": {
-      "file": "assets/hydrate/locator.92a66111.js",
+      "file": "assets/hydrate/locator.8756afcc.js",
       "src": "dist/hydration_templates/locator.tsx",
       "isEntry": true,
       "imports": [
@@ -144,17 +142,17 @@
         "src/templates/locator.tsx",
         "_jsx-runtime-73b0c7e6.js",
         "_index-3fef7104.js",
-        "_answersHeadlessConfig-8e71cdf9.js",
+        "_answersHeadlessConfig-cfe6ff71.js",
         "_global-33848ab1.js",
         "_server.browser-ba80ba4b.js"
       ]
     },
     "src/templates/locator.tsx": {
-      "file": "assets/server/locator.ded7d2b8.js",
+      "file": "assets/server/locator.993a2240.js",
       "src": "src/templates/locator.tsx",
       "isEntry": true,
       "imports": [
-        "_answersHeadlessConfig-8e71cdf9.js",
+        "_answersHeadlessConfig-cfe6ff71.js",
         "_index-3fef7104.js",
         "_jsx-runtime-73b0c7e6.js",
         "_server.browser-ba80ba4b.js",
@@ -205,8 +203,8 @@
     "_global-33848ab1.js": {
       "file": "assets/static/global-33848ab1.js"
     },
-    "_answersHeadlessConfig-8e71cdf9.js": {
-      "file": "assets/static/answersHeadlessConfig-8e71cdf9.js",
+    "_answersHeadlessConfig-cfe6ff71.js": {
+      "file": "assets/static/answersHeadlessConfig-cfe6ff71.js",
       "isDynamicEntry": true,
       "imports": [
         "_jsx-runtime-73b0c7e6.js",
@@ -214,7 +212,7 @@
         "_global-33848ab1.js"
       ],
       "css": [
-        "assets/static/answersHeadlessConfig-fc156a23.css"
+        "assets/static/answersHeadlessConfig-d4eac7e8.css"
       ],
       "assets": [
         "assets/static/MGMpin-0521d029.svg",
@@ -226,12 +224,16 @@
         "assets/static/shape-b-bdecdd2a.svg"
       ]
     },
+    "src/templates/location.css": {
+      "file": "assets/static/location-55d13414.css",
+      "src": "src/templates/location.css"
+    },
     "src/templates/locator.css": {
       "file": "assets/static/locator-7e1d7cb8.css",
       "src": "src/templates/locator.css"
     },
     "answersHeadlessConfig.css": {
-      "file": "assets/static/answersHeadlessConfig-fc156a23.css",
+      "file": "assets/static/answersHeadlessConfig-d4eac7e8.css",
       "src": "answersHeadlessConfig.css"
     }
   }

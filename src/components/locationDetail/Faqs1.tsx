@@ -9,8 +9,8 @@ export default function FAQs(props:any){
    { props.faqs && props.faqs?.map((j:any)=>{
         return(
             <>           
-            <div className="flex w-full" style={{fontSize:"10px",marginTop:"40px"}}>
-                <div className="nearby-sec-inner">  
+            <div className="flex w-full">
+                {/* <div className="nearby-sec-inner">   */}
             <div className="nearby-card"> 
             <details>
             <summary>{j.question}</summary>
@@ -18,7 +18,7 @@ export default function FAQs(props:any){
              </details>        
              </div>
              </div>             
-             </div>
+             {/* </div> */}
             </>
         )
     })}

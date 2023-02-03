@@ -38,7 +38,8 @@
 
 //   return (
 //     <>
-      {/* <div className="centered-container">
+{
+  /* <div className="centered-container">
         <nav className="py-3 flex items-center justify-between">
           <img
               src="https://a.mktgcdn.com/p/8esDUBrhKJnkaVztLihLsC3quv_5BjLFG9L6MJ0adcs/150x150.png">
@@ -48,7 +49,8 @@
             <Cta buttonText="Order Delivery" url="#" style="secondary-cta"></Cta>
           </div>
         </nav>
-      </div> */}
+      </div> */
+}
 //       <div className="container">
 //           <nav className="navbar" style={{color:"#F9DDDD"}}>
 //              {linkDoms}
@@ -60,19 +62,13 @@
 
 // export default Header;
 
-
-
-
-
 import * as React from "react";
 import logo from "../../images/mgmlogo.jpg";
-
 
 // type Link = {
 //   label: string;
 //   url: string;
 // };
-
 
 // const links: Link[] = [
 //   {
@@ -118,55 +114,73 @@ const Header = (props: any) => {
   // console.log(props)
   React.useEffect(() => {
     document.body.setAttribute("id", "body");
-  })
+  });
   const toggle = () => {
-    (document.getElementById("body") as HTMLInputElement).classList.toggle('');
+    (document.getElementById("body") as HTMLInputElement).classList.toggle("");
   };
-  const linkDoms = props?._site?.c_headerLinks?.map((link:any) => (
-    <a style={{ font: "caption", color: "black" }} className="navbar-item" href="#" >
+  const linkDoms = props?._site?.c_headerLinks?.map((link: any) => (
+    <a
+      style={{ font: "caption", color: "black" }}
+      className="navbar-item"
+      href="#"
+    >
       <span>{link.label}</span>
     </a>
   ));
 
+  const Headercountact = props?._site?.c_headerFirst?.map((link: any) => (
+    <a  className="navbar-item px-4" href="#" >
+      <span>{link.label}</span><br />
+    </a>
+  ));
+
   return (
-    <>
-      <div style={{background:"white",height:"100px"}} id="header" className="header-nav">
-        <div style={{marginLeft:"25px"}} className="container header-content">
-          {/* <div className="header-content-left">
-            <a className="button" href="#">
-              <span className="is-hidden-touch">Find a restaurant</span></a>
-            <a className="button" href="#" title="Book now">Book now</a>
-          </div> */}
-          {/* <div className="header-content-middle">
-            <a className="logo" href="/">
-              <img className="" src={logo} alt="mgm-timber"/>
-            </a>
-          </div> */}
-          <div style={{width:"11%"}} className="logo pt-4" >
-                {
-                props._site.c_mgmTimberLogo?
-                <img src={props._site.c_mgmTimberLogo.url} alt="logo"/>:
-                <div/>
-                
-                } 
-                </div>
-                </div>
-          <div className="header-content-right lg:hidden">
-            <span className="navbar-burger burger" data-target="navbarMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
+    <>    
+      <div
+        style={{ background: "white", height: "100px" }}
+        id="header"
+        className="header-nav"
+      >
+        
+        <div
+          style={{ marginLeft: "25px" }}
+          className="container header-content flex items-center justify-between"
+        >
+          
+          
+          <div className="logo pt-4 w-auto">
+            
+              <a href="#"><img src={props._site.c_mgmTimberLogo.url} width="150" alt="logo"/></a>
+              
           </div>
+          <div className="flex items-center font-bold text-lg">{Headercountact}</div>
+        
+          
         </div>
-        <div className="">
-        <div style={{background:"#02a6db",height:"50px"}} className="text-black w-full font-bold">
-        <div style={{marginLeft:"40px"}} className="flex gap-x-20 text-3xl  pt-4">{linkDoms}</div>
+        <div className="header-content-right lg:hidden">
+          <span className="navbar-burger burger" data-target="navbarMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
         </div>
       </div>
+      <div className="">
+        <div
+          style={{ background: "#02a6db", height: "50px" }}
+          className="text-black w-full font-bold"
+        >
+          <div
+            style={{ marginLeft: "40px" }}
+            className="flex gap-x-20 text-3xl  pt-4"
+          >
+            {linkDoms}
+          </div>
+        </div>
+      </div>
+      
     </>
   );
 };
 
 export default Header;
-

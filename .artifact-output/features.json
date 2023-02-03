@@ -67,7 +67,8 @@
         "c_about",
         "c_banner",
         "c_faq.question",
-        "c_faq.answer"
+        "c_faq.answer",
+        "c_service"
       ],
       "filter": {
         "entityTypes": [
