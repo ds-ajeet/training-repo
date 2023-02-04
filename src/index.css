@@ -263,7 +263,7 @@ table.day-hrs .time-b{  @apply text-lg md:text-lg  w-auto leading-[1.875rem] rou
 
 .gm-style-iw{ @apply  !px-0 max-w-full md:!max-w-[24.312rem] lg:!max-w-full}
 .gm-style .gm-style-iw-c{@apply !rounded-none }
-.gm-style-iw-d .button-bx{@apply !justify-start flex-row }
+.gm-style-iw-d .button-bx{@apply !justify-center flex-row rounded-full}
 .gm-style-iw-d .button-bx .getdirection{@apply !bg-transparent !text-gray underline }
 .gm-style-iw-d .button-bx .getdirection1{@apply !bg-transparent  !text-gray underline }
 
@@ -749,4 +749,8 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .socialmedia a{
   border-radius: 10%;
   background: #fff;
+}
+.moreinfo{
+  justify-content: center;
+
 }

@@ -19,7 +19,9 @@
     "c_cookiePolicy",
     "c_jdGroups",
     "c_payment",
-    "c_countact"
+    "c_countact",
+    "c_newsletter",
+    "c_newsletterHeading"
 
   ],
   "localization": {
