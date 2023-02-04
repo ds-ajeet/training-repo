@@ -76,6 +76,11 @@ function opentime(e: any) {
             
             <div className="icon-row content-col address-with-availablity notHighlight">
               <Address address={address} />
+              <div className="pt-4">
+              <label>Telephone&nbsp;&nbsp;<a href="#" style={{color:"#0067c8"}}>{result.rawData.mainPhone}</a></label>
+              <br/><label>Email
+              &nbsp;<a href="#" style={{color:"#0067c8"}}>{result.rawData.emails}</a></label>
+              </div>
               {result.rawData.hours ? <>
               <div className="mt-2">
               <h6 style={{color:"red"}}>Opening Hours</h6>

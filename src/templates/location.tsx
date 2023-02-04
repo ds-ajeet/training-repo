@@ -73,6 +73,7 @@ export const config: TemplateConfig = {
       "uid",
       "meta",
       "name",
+      "emails",
       "address",
       "mainPhone",
       "hours",
@@ -307,6 +308,7 @@ const Location: Template<ExternalApiRenderData> = ({
     c_faq,
     c_service,
     name,
+    emails,
   } = document;
   const services = c_service?.map((link: any) => (
     <a className="navbar-item" href="#">
@@ -478,6 +480,7 @@ const Location: Template<ExternalApiRenderData> = ({
           {/* <PageLayout global={_site}> */}
           <Header _site={_site} />
           {/* <Banner/> */}
+      
           <PhotoSlider c_banner={c_banner} />
 
           <div className="container">

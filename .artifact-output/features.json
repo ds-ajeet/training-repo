@@ -57,6 +57,7 @@
         "uid",
         "meta",
         "name",
+        "emails",
         "address",
         "mainPhone",
         "hours",

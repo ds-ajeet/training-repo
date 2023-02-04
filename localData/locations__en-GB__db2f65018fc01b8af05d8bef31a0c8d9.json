@@ -327,17 +327,28 @@
 	],
 	"c_service": [
 		{
-			"label": "Kitchen"
+			"label": "Kitchen",
+			"link": "https://super.homelane.com/products/13june19/3_plp-image.jpg",
+			"linkType": "URL"
 		},
 		{
-			"label": "Door"
+			"label": "Door",
+			"link": "https://media.istockphoto.com/id/1075416986/photo/white-folding-door-opening-on-minimalist-kitchen-with-cabinets-and-island-open-space-with.jpg?s=612x612\u0026w=0\u0026k=20\u0026c=WHMCPRpZWWOI6_4RcV2tsO-UriqfrKSmS0FEJE9JKDo=",
+			"linkType": "URL"
 		},
 		{
-			"label": "Flooring"
+			"label": "Flooring",
+			"link": "https://4.imimg.com/data4/IP/SS/MY-24549790/floor-inlay-500x500.png",
+			"linkType": "URL"
 		},
 		{
-			"label": "Dry Linig"
+			"label": "Dry Linig",
+			"link": "https://taylorhart.co.uk/wp-content/uploads/2015/08/derby_pic12.jpg",
+			"linkType": "URL"
 		}
+	],
+	"emails": [
+		"mgmDundee@mgmtimber.com"
 	],
 	"hours": {
 		"friday": {

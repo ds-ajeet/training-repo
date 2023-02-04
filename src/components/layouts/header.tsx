@@ -51,6 +51,7 @@
         </nav>
       </div> */
 }
+// import { SearchBar } from "@yext/search-ui-react";
 //       <div className="container">
 //           <nav className="navbar" style={{color:"#F9DDDD"}}>
 //              {linkDoms}
@@ -64,7 +65,8 @@
 
 import * as React from "react";
 import logo from "../../images/mgmlogo.jpg";
-
+import SearchBar from "../locationDetail/search";
+import FilterSearch from "../locatorPage/FilterSearch";
 // type Link = {
 //   label: string;
 //   url: string;
@@ -152,6 +154,10 @@ const Header = (props: any) => {
             
               <a href="#"><img src={props._site.c_mgmTimberLogo.url} width="150" alt="logo"/></a>
               
+          </div>
+          <div>
+          <SearchBar/>
+          {/* <FilterSearch /> */}
           </div>
           <div className="flex items-center font-bold text-lg">{Headercountact}</div>
         
