@@ -9,6 +9,14 @@
       }
     },
     {
+      "name": "city",
+      "streamId": "matlan-city",
+      "templateType": "JS",
+      "entityPageSet": {
+        "plugin": {}
+      }
+    },
+    {
       "name": "country",
       "streamId": "matlan-country",
       "templateType": "JS",
@@ -59,6 +67,38 @@
           "global-data"
         ]
       },
+      "localization": {
+        "locales": [
+          "en_GB"
+        ],
+        "primary": false
+      }
+    },
+    {
+      "$id": "matlan-city",
+      "filter": {
+        "entityTypes": [
+          "ce_city"
+        ]
+      },
+      "fields": [
+        "id",
+        "uid",
+        "meta",
+        "name",
+        "slug",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.meta.entityType",
+        "dm_directoryChildren.mainPhone",
+        "dm_directoryChildren.slug",
+        "dm_directoryChildren.name",
+        "dm_directoryChildren.id",
+        "dm_directoryChildren.dm_directoryChildrenCount",
+        "dm_directoryChildren.address",
+        "dm_directoryChildren.hours",
+        "dm_directoryChildren.yextDisplayCoordinate"
+      ],
       "localization": {
         "locales": [
           "en_GB"

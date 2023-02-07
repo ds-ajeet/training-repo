@@ -2,6 +2,18 @@
 	"State": [
 		"region__en-GB__4035df62e65ae0f295936a0a734dd246.json"
 	],
+	"city": [
+		"matlan-city__en-GB__1aaf055636d1cb2030c6f182c11fa5b0.json",
+		"matlan-city__en-GB__83e599d9b5b76a1e361dd76d76c511b1.json",
+		"matlan-city__en-GB__9ca7a046fe94d2c1a1d8c68b4de81e2c.json",
+		"matlan-city__en-GB__5a12aec9a9e5e951ee8b6d229143ca2a.json",
+		"matlan-city__en-GB__6ee0c840deebb540c6f4d21db6645a4d.json",
+		"matlan-city__en-GB__ccf536bde5e83324d2cf2cbe56842266.json",
+		"matlan-city__en-GB__f96aed290a22d820ded1bca3ea246e41.json",
+		"matlan-city__en-GB__98d744074a684caa82402849c750a659.json",
+		"matlan-city__en-GB__0499f9304d41bad9b760a05cdd3fea43.json",
+		"matlan-city__en-GB__73d4286448735a3f78f5760adda206f2.json"
+	],
 	"country": [
 		"matlan-country__en-GB__928eb3e70c6272c67206c2894e37cca7.json"
 	],

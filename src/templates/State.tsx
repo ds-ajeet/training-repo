@@ -261,7 +261,8 @@ const region: Template<TemplateRenderProps> = ({
       <li className=" storelocation-category">
         <a
           key={entity.slug}
-          href={stagingBaseurl  + detlslug}
+          // href={stagingBaseurl  + detlslug}
+          href={detlslug}
         >
           {entity.name} ({entity.dm_directoryChildrenCount})
         </a>
@@ -274,7 +275,7 @@ const region: Template<TemplateRenderProps> = ({
   let bannerimage = c_banner_image && c_banner_image.image.url;
   return (
     <>
-        <PageLayout global={_site}>
+        {/* <PageLayout global={_site}> */}
           <Header _site={_site}/>
         <BreadCrumbs
             name={name}
@@ -301,7 +302,7 @@ const region: Template<TemplateRenderProps> = ({
           </div>
 
           
-        </PageLayout>
+        {/* </PageLayout> */}
         <Footer _site={_site}/>
     </>
   )

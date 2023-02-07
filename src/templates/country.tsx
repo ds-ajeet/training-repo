@@ -71,6 +71,7 @@ export const config: TemplateConfig = {
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
   currentUrl = "/" + document.slug.toString() + ".html";
   return "/" + document.slug.toString() + ".html";
+  // return `/index.html`;
 };
 
 // export const getRedirects: GetRedirects<TemplateProps> = ({ document }) => {
@@ -262,7 +263,7 @@ const country: Template<TemplateRenderProps> = ({
       <li className=" storelocation-category">
         <a
           key={entity.slug}
-          href={stagingBaseurl + detlslug}
+          href={detlslug}
         >
           {entity.name} ({entity.dm_directoryChildrenCount})
         </a>
