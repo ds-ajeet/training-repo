@@ -1,4 +1,10 @@
 {
+	"State": [
+		"region__en-GB__4035df62e65ae0f295936a0a734dd246.json"
+	],
+	"country": [
+		"matlan-country__en-GB__928eb3e70c6272c67206c2894e37cca7.json"
+	],
 	"location": [
 		"locations__en-GB__dd71edac93111b9472beb54b18fe3583.json",
 		"locations__en-GB__3236f0ac43fbf7206d250780a130c3cf.json",

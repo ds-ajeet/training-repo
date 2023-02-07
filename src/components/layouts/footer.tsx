@@ -218,6 +218,7 @@ const Footer = (props: any) => {
           
           <div style={{marginRight:"15%"}} className="otherLinks">
           <h2 style={{color:"white", font:"bold"}}>{props._site.c_newsletterHeading}</h2>
+          {/* <h6>{props._site.c_newsletter}</h6> */}
                {/* <div style={{marginRight:"180px"}}> */}
                   <div className="subscribe pt-4"><SubscribeForm/></div>
             {/* </div> */}
