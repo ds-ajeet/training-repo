@@ -1,12 +1,12 @@
 {
   "bundlePaths": {
     "404": "assets/server/404.ffe1b690.js",
-    "city": "assets/server/city.c9d134f4.js",
+    "city": "assets/server/city.cacf5187.js",
     "country": "assets/server/country.a436ea94.js",
     "location": "assets/server/location.c4ad281e.js",
     "locator": "assets/server/locator.41767ed2.js",
     "robots": "assets/server/robots.ebbcc517.js",
-    "State": "assets/server/State.e00b9919.js"
+    "State": "assets/server/State.32de3510.js"
   },
   "projectFilepaths": {
     "templatesRoot": "src/templates",
@@ -65,13 +65,13 @@
       "file": "assets/static/minus-sym-f0f517fd.svg",
       "src": "src/images/minus-sym.svg"
     },
-    "src/images/shape-b.svg": {
-      "file": "assets/static/shape-b-bdecdd2a.svg",
-      "src": "src/images/shape-b.svg"
-    },
     "src/images/shape-t.svg": {
       "file": "assets/static/shape-t-4e865b2a.svg",
       "src": "src/images/shape-t.svg"
+    },
+    "src/images/shape-b.svg": {
+      "file": "assets/static/shape-b-bdecdd2a.svg",
+      "src": "src/images/shape-b.svg"
     },
     "src/images/newsletter-bg.png": {
       "file": "assets/static/newsletter-bg-6b390772.png",
@@ -102,7 +102,7 @@
       ]
     },
     "dist/hydration_templates/city.tsx": {
-      "file": "assets/hydrate/city.6c8858ae.js",
+      "file": "assets/hydrate/city.99878ec2.js",
       "src": "dist/hydration_templates/city.tsx",
       "isEntry": true,
       "imports": [
@@ -118,7 +118,7 @@
       ]
     },
     "src/templates/city.tsx": {
-      "file": "assets/server/city.c9d134f4.js",
+      "file": "assets/server/city.cacf5187.js",
       "src": "src/templates/city.tsx",
       "isEntry": true,
       "imports": [
@@ -253,7 +253,7 @@
       ]
     },
     "dist/hydration_templates/State.tsx": {
-      "file": "assets/hydrate/State.9915724d.js",
+      "file": "assets/hydrate/State.61f6052f.js",
       "src": "dist/hydration_templates/State.tsx",
       "isEntry": true,
       "imports": [
@@ -268,7 +268,7 @@
       ]
     },
     "src/templates/State.tsx": {
-      "file": "assets/server/State.e00b9919.js",
+      "file": "assets/server/State.32de3510.js",
       "src": "src/templates/State.tsx",
       "isEntry": true,
       "imports": [

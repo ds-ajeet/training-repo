@@ -252,7 +252,7 @@ const region: Template<TemplateRenderProps> = ({
 
         })
       } else {
-        detlslug = "gb/" + slug + "/" + entity.slug + ".html";
+        detlslug =slug + "/" + entity.slug + ".html";
       }
 
     }

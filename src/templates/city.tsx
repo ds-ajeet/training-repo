@@ -66,6 +66,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
     }
     else if (i.meta.entityType.id == 'ce_region') {
       url = `${url}/${i.slug}/${document.slug.toString()}.html`
+      // url = `${url}/${document.slug.toString()}.html`
     }
   })
   return url;
@@ -238,7 +239,7 @@ const City: Template<TemplateRenderProps> = ({
   });
 
   const childrenDivs = dm_directoryChildren.map((entity: any) => {
-    console.log(entity)
+    console.log(entity,"entityslug")
     var origin: any = null;
     if (entity.address.city) {
       origin = entity.address.city;
@@ -259,9 +260,9 @@ const City: Template<TemplateRenderProps> = ({
     var string: any = name.toString();;
     let result: any = string.replaceAll(" ", "-");
     if (!entity.slug) {
-      url = `/${entity.id}-${result}.html`;
+      url = `/${entity.id}`;
     } else {
-      url = `/${entity.slug.toString()}.html`;
+      url = `/${entity.slug.toString()}`;
     }
 
 
