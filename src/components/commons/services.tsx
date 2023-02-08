@@ -13,7 +13,7 @@ export default function Services(props:any){
             <div className="nearby-card">        
                 {s.label?(<a href="#"><h2>{s.label}</h2></a>):("")}                
                 <br/>
-                {s.link?(<img src={s.link} style={{width:"100%",height:"70%"}}/>):("")}
+                {s.link?(<img src={s.link}/>):("")}
                                 
              </div>
              </div>

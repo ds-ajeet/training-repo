@@ -3,7 +3,7 @@
     "404": "assets/server/404.ffe1b690.js",
     "city": "assets/server/city.e3f0495a.js",
     "country": "assets/server/country.06acf791.js",
-    "location": "assets/server/location.873f16ac.js",
+    "location": "assets/server/location.38aa2d3b.js",
     "locator": "assets/server/locator.95808540.js",
     "robots": "assets/server/robots.ebbcc517.js",
     "State": "assets/server/State.69437bc1.js"
@@ -37,14 +37,6 @@
       "file": "assets/static/MGMpin-0521d029.svg",
       "src": "src/images/MGMpin.svg"
     },
-    "src/images/red-map.svg": {
-      "file": "assets/static/red-map-55834b8a.svg",
-      "src": "src/images/red-map.svg"
-    },
-    "src/images/watch-icn.svg": {
-      "file": "assets/static/watch-icn-12e4a5d9.svg",
-      "src": "src/images/watch-icn.svg"
-    },
     "src/images/MGMhover1.svg": {
       "file": "assets/static/MGMhover1-bbbef0ea.svg",
       "src": "src/images/MGMhover1.svg"
@@ -52,6 +44,14 @@
     "src/images/map-center.svg": {
       "file": "assets/static/map-center-262cd830.svg",
       "src": "src/images/map-center.svg"
+    },
+    "src/images/watch-icn.svg": {
+      "file": "assets/static/watch-icn-12e4a5d9.svg",
+      "src": "src/images/watch-icn.svg"
+    },
+    "src/images/red-map.svg": {
+      "file": "assets/static/red-map-55834b8a.svg",
+      "src": "src/images/red-map.svg"
     },
     "src/images/dots.svg": {
       "file": "assets/static/dots-c532748f.svg",
@@ -162,7 +162,7 @@
       ]
     },
     "dist/hydration_templates/location.tsx": {
-      "file": "assets/hydrate/location.fdb93964.js",
+      "file": "assets/hydrate/location.4b393dab.js",
       "src": "dist/hydration_templates/location.tsx",
       "isEntry": true,
       "imports": [
@@ -180,7 +180,7 @@
       ]
     },
     "src/templates/location.tsx": {
-      "file": "assets/server/location.873f16ac.js",
+      "file": "assets/server/location.38aa2d3b.js",
       "src": "src/templates/location.tsx",
       "isEntry": true,
       "imports": [
@@ -371,10 +371,6 @@
         "assets/static/MGMpin-0521d029.svg"
       ]
     },
-    "index.css": {
-      "file": "assets/static/index-1cf38894.css",
-      "src": "index.css"
-    },
     "src/templates/location.css": {
       "file": "assets/static/location-55d13414.css",
       "src": "src/templates/location.css"
@@ -382,6 +378,10 @@
     "src/templates/locator.css": {
       "file": "assets/static/locator-7e1d7cb8.css",
       "src": "src/templates/locator.css"
+    },
+    "index.css": {
+      "file": "assets/static/index-1cf38894.css",
+      "src": "index.css"
     }
   }
 }
