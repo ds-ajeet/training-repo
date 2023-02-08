@@ -259,6 +259,7 @@ const City: Template<TemplateRenderProps> = ({
     var finalcity: any = initialrcity.replaceAll(" ", "-");
     var string: any = name.toString();;
     let result: any = string.replaceAll(" ", "-");
+     
     if (!entity.slug) {
       url = `/${entity.id}`;
     } else {
@@ -404,6 +405,7 @@ const City: Template<TemplateRenderProps> = ({
     }
     else if (i.meta.entityType.id == 'ce_region') {
       url = `${url}/${i.slug}/${document.slug.toString()}.html`
+      
     }
   })
   let breadcrumbScheme: any = [];

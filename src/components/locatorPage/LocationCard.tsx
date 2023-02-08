@@ -51,6 +51,11 @@ function opentime(e: any) {
 //  } else {
 //    url= `/${result.rawData.slug.toString()}.html`;
 //  }
+// const services = c_service?.map((link: any) => (
+//   <a className="navbar-item" href="#">
+//     <span>{link.label}</span>
+//   </a>
+// ));
   
   return (
     <div className={`location result-list-inner-${result.id} result`} id={`result-${result.id}`} key={`result-${result.rawData.id}`}>
@@ -112,6 +117,17 @@ function opentime(e: any) {
                    </div>}
 
             </div>
+            <div><div style={{marginLeft:"30px"}}><h2>Services</h2>
+            <div>
+           {result.rawData.c_service&&result.rawData.c_service.map((server:any)=>{
+            return( 
+
+              <pre>{server.label?(<ul><li><a href="#"><h5>{server.label}</h5></a></li></ul>):("")}</pre>     
+               
+           )
+           })}
+           </div>
+           </div></div>
          
              <div className="button-bx">
               <Link type="button" href={`/${result.rawData.id}`} className=" btn notHighlight "

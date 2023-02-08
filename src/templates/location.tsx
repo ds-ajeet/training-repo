@@ -16,6 +16,7 @@ import FAQs from "../components/locationDetail/Faqs1";
 import SearchBar from "../components/locationDetail/search";
 import { Link } from "@yext/pages/components";
 import "../index.css";
+import Services from "../components/commons/services";
 import {
   Template,
   GetPath,
@@ -318,12 +319,13 @@ const Location: Template<ExternalApiRenderData> = ({
     c_service,
     name,
     emails,
+    dm_directoryParents,
   } = document;
-  const services = c_service?.map((link: any) => (
-    <a className="navbar-item" href="#">
-      <span>{link.label}</span>
-    </a>
-  ));
+  // const services = c_service?.map((link: any) => (
+  //   <a className="navbar-item" href="#">
+  //     <span>{link.label}</span>
+  //   </a>
+  // ));
   let templateData = { document: document, __meta: __meta };
   let hoursSchema = [];
   let breadcrumbScheme = [];
@@ -491,6 +493,12 @@ const Location: Template<ExternalApiRenderData> = ({
           {/* <Banner/> */}
       
           <PhotoSlider c_banner={c_banner} />
+          <BreadCrumbs
+            name={name}
+            parents={dm_directoryParents}
+            baseUrl={relativePrefixToRoot}
+            address={address}
+          ></BreadCrumbs>
 
           <div className="container">
             <div className="banner-text banner-dark-bg justify-center text-center">
@@ -579,10 +587,13 @@ const Location: Template<ExternalApiRenderData> = ({
         </AnalyticsScopeProvider>
       </AnalyticsProvider>
       <div>
-        <div className="service inline-block w-full">
+        {/* <div className="service inline-block w-full">
           <h1 className="">Services</h1>
           <div className="flex items-center justify-between">{services}</div>
-        </div>
+        </div> */}
+        <div style={{textAlign:"center",marginTop:"50px"}}><h1>SERVICES</h1>
+        {c_service?(<Services service={c_service}/>):("")}
+       </div>
         <div>
           <Faq faqs={c_faq} />
         </div>
