@@ -271,9 +271,9 @@
 		"countryCode": "GB",
 		"line1": "37 Hospital Street,",
 		"localizedCountryName": "United Kingdom",
-		"localizedRegionName": "United Kingdom",
+		"localizedRegionName": "Scotland",
 		"postalCode": "DD3 8DJ",
-		"region": "United Kingdom",
+		"region": "Scotland",
 		"sublocality": "Tayside"
 	},
 	"businessId": 3191782,
@@ -378,8 +378,8 @@
 					"uid": 108843
 				}
 			},
-			"name": "United Kingdom",
-			"slug": "united-kingdom"
+			"name": "Scotland",
+			"slug": "scotland"
 		},
 		{
 			"meta": {

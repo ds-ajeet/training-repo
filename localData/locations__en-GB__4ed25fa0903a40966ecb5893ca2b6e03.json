@@ -272,9 +272,9 @@
 		"line1": "Units 17-21",
 		"line2": "53 Clark Street",
 		"localizedCountryName": "United Kingdom",
-		"localizedRegionName": "United Kingdom",
+		"localizedRegionName": "Scotland",
 		"postalCode": "PA3 1QS",
-		"region": "United Kingdom"
+		"region": "Scotland"
 	},
 	"businessId": 3191782,
 	"c_about": {
@@ -378,8 +378,8 @@
 					"uid": 108843
 				}
 			},
-			"name": "United Kingdom",
-			"slug": "united-kingdom"
+			"name": "Scotland",
+			"slug": "scotland"
 		},
 		{
 			"meta": {

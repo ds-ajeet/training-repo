@@ -272,9 +272,9 @@
 		"line1": "Unit 24, Woodgate Way South",
 		"line2": "Eastfield Industrial Estate",
 		"localizedCountryName": "United Kingdom",
-		"localizedRegionName": "United Kingdom",
+		"localizedRegionName": "Scotland",
 		"postalCode": "KY7 4PF",
-		"region": "United Kingdom",
+		"region": "Scotland",
 		"sublocality": "Fife"
 	},
 	"businessId": 3191782,
@@ -379,8 +379,8 @@
 					"uid": 108843
 				}
 			},
-			"name": "United Kingdom",
-			"slug": "united-kingdom"
+			"name": "Scotland",
+			"slug": "scotland"
 		},
 		{
 			"meta": {
@@ -474,7 +474,7 @@
 	"timezone": "Europe/London",
 	"uid": 32143710,
 	"yextDisplayCoordinate": {
-		"latitude": 56.1857577,
-		"longitude": -3.1503402
+		"latitude": 56.1873549,
+		"longitude": -3.1451997
 	}
 }

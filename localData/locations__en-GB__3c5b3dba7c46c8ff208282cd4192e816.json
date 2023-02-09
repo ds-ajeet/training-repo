@@ -271,9 +271,9 @@
 		"countryCode": "GB",
 		"line1": "11 Dickson Street",
 		"localizedCountryName": "United Kingdom",
-		"localizedRegionName": "United Kingdom",
+		"localizedRegionName": "Scotland",
 		"postalCode": "KY12 7SL",
-		"region": "United Kingdom",
+		"region": "Scotland",
 		"sublocality": "Fife"
 	},
 	"businessId": 3191782,
@@ -378,8 +378,8 @@
 					"uid": 108843
 				}
 			},
-			"name": "United Kingdom",
-			"slug": "united-kingdom"
+			"name": "Scotland",
+			"slug": "scotland"
 		},
 		{
 			"meta": {

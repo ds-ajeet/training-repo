@@ -272,9 +272,9 @@
 		"line1": "90 Canyon Road, Excelsior Business Park",
 		"line2": "Netherton Industrial Estate",
 		"localizedCountryName": "United Kingdom",
-		"localizedRegionName": "United Kingdom",
+		"localizedRegionName": "Scotland",
 		"postalCode": "ML2 0EG",
-		"region": "United Kingdom"
+		"region": "Scotland"
 	},
 	"businessId": 3191782,
 	"c_about": {
@@ -348,48 +348,6 @@
 			"label": "Dry Linig",
 			"link": "https://taylorhart.co.uk/wp-content/uploads/2015/08/derby_pic12.jpg",
 			"linkType": "URL"
-		}
-	],
-	"dm_directoryParents": [
-		{
-			"meta": {
-				"entityType": {
-					"id": "ce_root",
-					"uid": 108844
-				}
-			},
-			"name": "stores Directory",
-			"slug": "stores"
-		},
-		{
-			"meta": {
-				"entityType": {
-					"id": "ce_country",
-					"uid": 108842
-				}
-			},
-			"name": "GB",
-			"slug": "gb"
-		},
-		{
-			"meta": {
-				"entityType": {
-					"id": "ce_region",
-					"uid": 108843
-				}
-			},
-			"name": "United Kingdom",
-			"slug": "united-kingdom"
-		},
-		{
-			"meta": {
-				"entityType": {
-					"id": "ce_city",
-					"uid": 108841
-				}
-			},
-			"name": "Wishaw",
-			"slug": "wishaw"
 		}
 	],
 	"emails": [

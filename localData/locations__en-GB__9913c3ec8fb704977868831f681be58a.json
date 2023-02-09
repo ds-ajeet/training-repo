@@ -272,9 +272,9 @@
 		"line1": "Unit 2",
 		"line2": "24 Longman Drive",
 		"localizedCountryName": "United Kingdom",
-		"localizedRegionName": "United Kingdom",
+		"localizedRegionName": "Scotland",
 		"postalCode": "IV1 1SU",
-		"region": "United Kingdom"
+		"region": "Scotland"
 	},
 	"businessId": 3191782,
 	"c_about": {
@@ -378,8 +378,8 @@
 					"uid": 108843
 				}
 			},
-			"name": "United Kingdom",
-			"slug": "united-kingdom"
+			"name": "Scotland",
+			"slug": "scotland"
 		},
 		{
 			"meta": {

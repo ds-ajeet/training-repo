@@ -272,9 +272,9 @@
 		"line1": "Units 4 \u0026 5 Bleasdale Court",
 		"line2": "Clydebank Business Park",
 		"localizedCountryName": "United Kingdom",
-		"localizedRegionName": "United Kingdom",
+		"localizedRegionName": "Scotland",
 		"postalCode": "G81 2LE",
-		"region": "United Kingdom",
+		"region": "Scotland",
 		"sublocality": "Clydebank"
 	},
 	"businessId": 3191782,
@@ -379,8 +379,8 @@
 					"uid": 108843
 				}
 			},
-			"name": "United Kingdom",
-			"slug": "united-kingdom"
+			"name": "Scotland",
+			"slug": "scotland"
 		},
 		{
 			"meta": {
