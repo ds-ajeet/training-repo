@@ -261,9 +261,9 @@ const City: Template<TemplateRenderProps> = ({
     let result: any = string.replaceAll(" ", "-");
      
     if (!entity.slug) {
-      url = `/${entity.id}`;
+      url = `/${entity.id}.html`;
     } else {
-      url = `/${entity.slug.toString()}`;
+      url = `/${entity.slug.toString()}.html`;
     }
 
 

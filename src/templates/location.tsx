@@ -87,6 +87,9 @@ export const config: TemplateConfig = {
       "c_faq.question",
       "c_faq.answer",
       "c_service",
+      "dm_directoryParents.name",
+      "dm_directoryParents.slug",
+      "dm_directoryParents.meta.entityType",
       //"cityCoordinate"
     ],
     // Defines the scope of entities that qualify for this stream.
@@ -118,12 +121,11 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   //   }
   // })
   // if (!document.slug) {
-  //   url += `${result}.html`;
+  //   url += `${result.slug}.html`;
   // } else {
   //   url += `${document.slug.toString()}.html`;
   // }
-
-  return document.id;
+  return `${document.id}.html`;
 };
 /**
  * Defines a list of paths which will redirect to the path created by getPath.
@@ -270,18 +272,17 @@ export const transformProps: TransformProps<ExternalApiData> = async (
       : data.document.displayCoordinate.longitude
   }`;
 
-//   const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
-//   console.log(url);
-//   const externalApiData = (await fetch(url).then((res: any) =>
-//     res.json()
-//   )) as nearByLocation;
-//   return { ...data, externalApiData };
-// };
+  //   const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
+  //   console.log(url);
+  //   const externalApiData = (await fetch(url).then((res: any) =>
+  //     res.json()
+  //   )) as nearByLocation;
+  //   return { ...data, externalApiData };
+  // };
 
-
-const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=3`
-// console.log(url,"geosearchApi");
-const externalApiData = (await fetch(url).then((res: any) =>
+  const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=3`;
+  // console.log(url,"geosearchApi");
+  const externalApiData = (await fetch(url).then((res: any) =>
     res.json()
   )) as nearByLocation;
   return { ...data, externalApiData };
@@ -491,7 +492,7 @@ const Location: Template<ExternalApiRenderData> = ({
           {/* <PageLayout global={_site}> */}
           <Header _site={_site} />
           {/* <Banner/> */}
-      
+
           <PhotoSlider c_banner={c_banner} />
           <BreadCrumbs
             name={name}
@@ -548,7 +549,7 @@ const Location: Template<ExternalApiRenderData> = ({
               </div>
             )}
           </div>
-          <div className="aboutUs inline-block w-full">
+          {/* <div className="aboutUs inline-block w-full">
             <div className="aboutusName">
               <a href="#">{c_about.cTA.label}</a>
             </div>
@@ -557,12 +558,32 @@ const Location: Template<ExternalApiRenderData> = ({
                 <img src={c_about.img.url} className="imga" />
               </div>
               <div className="desc w-1/2">{c_about.description}
-              </div>
-              {/* <Cta
+              </div> */}
+          {/* <Cta
                   buttonText="About Us"
                   url="#"
                   style="text-orange bg-red shadow-xl"
                 ></Cta> */}
+          {/* </div> */}
+          {/* </div> */}
+
+          <div className="py-10">
+            <div className="container mx-auto ab-secmain flex flex-wrap items-center">
+              <div className="w-full md:w-1/2 px-5">
+                <div className="container">
+                  <img src={c_about.img.url} />
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 about-sec px-5">
+                <h3 className="font-bold text-2xl ">
+                  MGM Timber {c_about.cTA.label} About
+                </h3>
+                <p className="mt-2">{c_about.description}</p>
+
+                <div className="mt-6">
+                  <button style={{ color: "green" }}>Visit Us</button>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -591,9 +612,10 @@ const Location: Template<ExternalApiRenderData> = ({
           <h1 className="">Services</h1>
           <div className="flex items-center justify-between">{services}</div>
         </div> */}
-        <div style={{textAlign:"center",marginTop:"50px"}}><h1>SERVICES</h1>
-        {c_service?(<Services service={c_service}/>):("")}
-       </div>
+        <div style={{ textAlign: "center", marginTop: "50px" }}>
+          <h1>SERVICES</h1>
+          {c_service ? <Services service={c_service} /> : ""}
+        </div>
         <div>
           <Faq faqs={c_faq} />
         </div>

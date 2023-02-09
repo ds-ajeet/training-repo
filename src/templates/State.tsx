@@ -247,7 +247,7 @@ const region: Template<TemplateRenderProps> = ({
             detlslug1 = `${slug}.html`;
           } else {
             // detlslug1 = `${res.slug.toString()}.html`;
-            detlslug1 = `/${res.slug.toString()}`;
+            detlslug1 = `/${res.slug.toString()}.html`;
           }
           
 

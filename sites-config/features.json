@@ -159,7 +159,10 @@
         "c_banner",
         "c_faq.question",
         "c_faq.answer",
-        "c_service"
+        "c_service",
+        "dm_directoryParents.name",
+        "dm_directoryParents.slug",
+        "dm_directoryParents.meta.entityType"
       ],
       "filter": {
         "entityTypes": [
