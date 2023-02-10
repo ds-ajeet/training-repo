@@ -477,20 +477,26 @@ function UnwrappedGoogleMaps({
     info = true;
     let url = "";
 
-    // const name: any = result.rawData.name?.toLowerCase();
-    // const region: any = result.rawData.address.region?.toLowerCase();
-    // const initialregion: any = region.toString();
-    // const finalregion: any = initialregion.replaceAll(" ", "-");
-    // const city: any = result.rawData.address.city?.toLowerCase();
-    // const initialrcity: any = city.toString();
-    // const finalcity: any = initialrcity.replaceAll(" ", "-");
-    // const string1: any = name.toString();
-    // const result1: any = string1.replaceAll(" ", "-");
-    // if (!result.rawData.slug) {
-    //   url = `${result.rawData.id}-${result1}.html`;
-    // } else {
-    //   url = `${result.rawData.slug.toString()}.html`;
-    // }
+    const name: any = result.rawData.name?.toLowerCase();
+    var country: any = result.rawData.address.countryCode?.toLowerCase();
+    var initialcountry: any = country.toString();
+    var finalcountry: any = initialcountry.replaceAll(" ", "-");
+    const region: any = result.rawData.address.region?.toLowerCase();
+    const initialregion: any = region.toString();
+    const finalregion: any = initialregion.replaceAll(" ", "-");
+    const city: any = result.rawData.address.city?.toLowerCase();
+    const initialrcity: any = city.toString();
+    const finalcity: any = initialrcity.replaceAll(" ", "-");
+    const string1: any = name.toString();
+    const result1: any = string1.replaceAll(" ", "-");
+    let main_result:any=finalcountry+"/"+finalregion+"/"+finalcity+"/"+result.rawData.slug+".html";
+    if (!result.rawData.slug) {
+      url = `${result.rawData.id}-${result1}.html`;
+    } else {
+      url = `/${main_result}`;
+      // console.log(url,"url")
+    }
+    
 
     const MarkerContent = (
       <>
@@ -611,7 +617,7 @@ function UnwrappedGoogleMaps({
           )}
         </div>
         <div className="moreinfo button-bx !ml-4 !mb-0 pt-4">
-          <a type="button" href={`/${result.rawData.id}`} className="btn">
+          <a type="button" href={`${url}`} className="btn">
             {/* <div dangerouslySetInnerHTML={{ __html: View_Store }} /> */}
             {StaticData.StoreDetailbtn}
           </a>

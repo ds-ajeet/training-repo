@@ -218,6 +218,7 @@ const City: Template<TemplateRenderProps> = ({
     c_metaTitle,
     _site,
   } = document;
+  console.log(document.slug,"kkk")
   var address;
   var c_companyrn;
   var c_footerLinks;
@@ -250,7 +251,9 @@ const City: Template<TemplateRenderProps> = ({
     }
     // let key: any = Object.keys(entity.hours)[0];
     var url = "";
-    var name: any = entity.name.toLowerCase();
+    // var name: any = entity.name.toLowerCase();
+    var name: any = "/"+document.dm_directoryParents[1].slug+"/"+dm_directoryParents[2].slug+"/"+document.slug + "/"+ entity.id;
+    console.log(name,"Cityname")
     var region: any = entity.address.region.toLowerCase();
     var initialregion: any = region.toString();
     var finalregion: any = initialregion.replaceAll(" ", "-");
@@ -260,8 +263,8 @@ const City: Template<TemplateRenderProps> = ({
     var string: any = name.toString();;
     let result: any = string.replaceAll(" ", "-");
      
-    if (!entity.slug) {
-      url = `/${entity.id}.html`;
+    if (entity.slug) {
+      url = `${result}.html`;
     } else {
       url = `/${entity.slug.toString()}.html`;
     }

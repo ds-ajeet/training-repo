@@ -754,3 +754,48 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   justify-content: center;
 
 }
+.visitButton{
+  background:  rgb(2 166 219 / var(--tw-bg-opacity));
+  padding-top:  0.25rem;
+  width:  9.75rem;;
+  text-align: center;
+  height: 30px;
+  font-size:large;
+  color: #fff;
+  border-radius: 1px;
+}
+.containerr{
+  max-width: 1280px;
+}
+.containerr img{
+  display: block;
+  padding-top: 25px;
+}
+.py-10{
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+--tw-bg-opacity: .02;
+}
+/* .store-faci {
+  width: 100%;
+  text-align: center;
+}
+.store-faci .boxes-row {
+  margin-bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+} */
+
+.nearby-card img{
+  height: 300px;
+}
+.serviceLable{
+  padding-top: 7px;
+  background-color: #02a6db;
+  
+}
+.serviceLable h2{
+  color: #fff;
+  font-weight: bold;
+  height: 40px;
+
+}

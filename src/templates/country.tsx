@@ -300,7 +300,7 @@ const country: Template<TemplateRenderProps> = ({
               </h2>
             </div>
 
-            <ul className="region-list">
+            <ul className="region-list" style={{justifyContent:"center"}}>
 
               {childrenDivs}
             </ul>

@@ -242,12 +242,12 @@ const region: Template<TemplateRenderProps> = ({
 
           if (!res.slug) {
             let slugString = res.id + "-" + res.name.toLowerCase();
-            // console.log(slugString);
             let slug = slugString;
             detlslug1 = `${slug}.html`;
           } else {
-            // detlslug1 = `${res.slug.toString()}.html`;
-            detlslug1 = `/${res.slug.toString()}.html`;
+            detlslug1 = slug+"/"+entity.slug+"/"+res.id+".html";
+            // detlslug1 = `/${res.slug.toString()}.html`;
+            console.log(detlslug1,"d1state")
           }
           
 
@@ -256,6 +256,7 @@ const region: Template<TemplateRenderProps> = ({
         })
       } else {
         detlslug =slug + "/" + entity.slug + ".html";
+        // console.log(detlslug,"state")
       }
 
     }

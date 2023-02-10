@@ -112,21 +112,21 @@ export const config: TemplateConfig = {
  * take on the form: featureName/entityId
  */
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
-//   var url = "";
-//   var name: any = document.name.toLowerCase();
-//   var string: any = name.toString();;
-//   let result: any = string.replaceAll(" ", "-");
-//   document.dm_directoryParents?.map((result: any, i: number) => {
-//     if (i > 0) {
-//       url += result.slug + "/"
-//     }
-//   })
-//   if (!document.slug) {
-//     url += `${result.slug}.html`;
-//   } else {
-//     url += `${document.slug.toString()}.html`;
-//   }
-//  return url;
+  var url = "";
+  var name: any = document.name.toLowerCase();
+  var string: any = name.toString();;
+  let result: any = string.replaceAll(" ", "-");
+  document.dm_directoryParents?.map((result: any, i: number) => {
+    if (i > 0) {
+      url += result.slug + "/"
+    }
+  })
+  if (!document.slug) {
+    url += `${result.slug}.html`;
+  } else {
+    url += `${document.slug.toString()}.html`;
+  }
+ return url;
 
 
   // var url: any = ""
@@ -142,7 +142,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   //   }
   // })
   // return url;
-  return `${document.id}.html`;
+  // return `${document.id}.html`;
 };
 /**
  * Defines a list of paths which will redirect to the path created by getPath.
@@ -340,7 +340,7 @@ const Location: Template<ExternalApiRenderData> = ({
     dm_directoryParents,
   } = document;
   // const services = c_service?.map((link: any) => (
-  //   <a className="navbar-item" href="#">
+  //   <a className="navbar-item" href={link.link}>
   //     <span>{link.label}</span>
   //   </a>
   // ));
@@ -566,28 +566,14 @@ const Location: Template<ExternalApiRenderData> = ({
               </div>
             )}
           </div>
-          {/* <div className="aboutUs inline-block w-full">
-            <div className="aboutusName">
-              <a href="#">{c_about.cTA.label}</a>
-            </div>
-            <div className="aboutName flex flex-wrap">
-              <div className="w-1/2">
-                <img src={c_about.img.url} className="imga" />
-              </div>
-              <div className="desc w-1/2">{c_about.description}
-              </div> */}
-          {/* <Cta
-                  buttonText="About Us"
-                  url="#"
-                  style="text-orange bg-red shadow-xl"
-                ></Cta> */}
-          {/* </div> */}
-          {/* </div> */}
-
+          <div style={{ textAlign: "center", marginTop: "50px" }}>
+          <h1 style={{color:"rgb(2 166 219 / var(--tw-text-opacity))"}}>SERVICES</h1>
+          {c_service ? <Services c_service={c_service} /> : ""}
+        </div>
           <div className="py-10">
             <div className="container mx-auto ab-secmain flex flex-wrap items-center">
               <div className="w-full md:w-1/2 px-5">
-                <div className="container">
+                <div className="containerr">
                   <img src={c_about.img.url} />
                 </div>
               </div>
@@ -597,12 +583,13 @@ const Location: Template<ExternalApiRenderData> = ({
                 </h3>
                 <p className="mt-2">{c_about.description}</p>
 
-                <div className="mt-6">
-                  <button style={{ color: "green" }}>Visit Us</button>
+                <div className="visitButton mt-6">
+                  <button>About Us</button>
                 </div>
               </div>
             </div>
           </div>
+
 
           <div className="nearby-sec">
             <div className="container">
@@ -625,20 +612,12 @@ const Location: Template<ExternalApiRenderData> = ({
         </AnalyticsScopeProvider>
       </AnalyticsProvider>
       <div>
-        {/* <div className="service inline-block w-full">
-          <h1 className="">Services</h1>
-          <div className="flex items-center justify-between">{services}</div>
-        </div> */}
-        <div style={{ textAlign: "center", marginTop: "50px" }}>
-          <h1>SERVICES</h1>
-          {c_service ? <Services service={c_service} /> : ""}
-        </div>
-        <div>
+       
           <Faq faqs={c_faq} />
         </div>
         {/* <FAQs faqs={c_faq}/> */}
         {/* <About /> */}
-      </div>
+      
       <div></div>
       <Footer _site={_site} />
     </>
