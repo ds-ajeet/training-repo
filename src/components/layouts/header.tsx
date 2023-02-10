@@ -122,11 +122,11 @@ const Header = (props: any) => {
   };
   const linkDoms = props?._site?.c_headerLinks?.map((link: any) => (
     <a
-      style={{ font: "caption", color: "black" }}
+      style={{ color: "black" }}
       className="navbar-item"
       href="#"
     >
-      <span>{link.label}</span>
+      <span style={{fontWeight:"bold"}}>{link.label}</span>
     </a>
   ));
 
@@ -173,12 +173,12 @@ const Header = (props: any) => {
       </div>
       <div className="">
         <div
-          style={{ background: "#02a6db", height: "50px" }}
+          style={{ background: "#02a6db", height: "70px" }}
           className="text-black w-full font-bold"
         >
           <div
-            style={{ marginLeft: "40px" }}
-            className="flex gap-x-20 text-3xl  pt-4"
+            style={{ marginLeft: "15px" }}
+            className="flex gap-x-16 text-ml  pt-4"
           >
             {linkDoms}
           </div>
