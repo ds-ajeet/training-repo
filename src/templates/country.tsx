@@ -279,6 +279,7 @@ const country: Template<TemplateRenderProps> = ({
   return (
     <>
     <Header _site={_site}/>
+    <Banner/>
       <PageLayout global={_site}>
         <BreadCrumbs
           name={regionNames.of(name)}

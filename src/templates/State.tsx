@@ -281,6 +281,7 @@ const region: Template<TemplateRenderProps> = ({
     <>
         {/* <PageLayout global={_site}> */}
           <Header _site={_site}/>
+          <Banner/>
         <BreadCrumbs
             name={name}
             parents={dm_directoryParents}

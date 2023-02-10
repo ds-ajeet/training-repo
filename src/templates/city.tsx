@@ -2,6 +2,8 @@ import * as React from "react";
 // import Banner from "../components/banner";
 import GetDirection from "../components/commons/GetDirection";
 import constant from "../constant";
+import Header from "../components/layouts/header";
+import Footer from "../components/layouts/footer";
 // import { stagingBaseUrl } from "../constants";
 // import bannerImage from "../images/banner.png"
 import "../index.css";
@@ -455,6 +457,8 @@ const City: Template<TemplateRenderProps> = ({
           itemListElement: breadcrumbScheme,
         }}
       />
+      <Header _site={_site}/>
+      <Banner/>
       <PageLayout global={_site}>
         <BreadCrumbs
           name={name}
@@ -476,6 +480,7 @@ const City: Template<TemplateRenderProps> = ({
           </div>
         </div>
       </PageLayout>
+      <Footer _site={_site}/>
     </>
   );
 };
