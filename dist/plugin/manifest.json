@@ -4,7 +4,7 @@
     "city": "assets/server/city.5286dac0.js",
     "country": "assets/server/country.2c26791e.js",
     "location": "assets/server/location.71f08615.js",
-    "locator": "assets/server/locator.1649be16.js",
+    "locator": "assets/server/locator.6248aab0.js",
     "robots": "assets/server/robots.ebbcc517.js",
     "State": "assets/server/State.abb67e6f.js"
   },
@@ -25,10 +25,6 @@
         "_server.browser-ba80ba4b.js"
       ]
     },
-    "src/images/MGM_About_Us_Image.webp": {
-      "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
-      "src": "src/images/MGM_About_Us_Image.webp"
-    },
     "src/images/map.svg": {
       "file": "assets/static/map-05379a2e.svg",
       "src": "src/images/map.svg"
@@ -37,17 +33,21 @@
       "file": "assets/static/phone-057118a0.svg",
       "src": "src/images/phone.svg"
     },
+    "src/images/MGM_About_Us_Image.webp": {
+      "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
+      "src": "src/images/MGM_About_Us_Image.webp"
+    },
     "src/images/MGMpin.svg": {
       "file": "assets/static/MGMpin-0521d029.svg",
       "src": "src/images/MGMpin.svg"
     },
-    "src/images/watch-icn.svg": {
-      "file": "assets/static/watch-icn-12e4a5d9.svg",
-      "src": "src/images/watch-icn.svg"
-    },
     "src/images/red-map.svg": {
       "file": "assets/static/red-map-55834b8a.svg",
       "src": "src/images/red-map.svg"
+    },
+    "src/images/watch-icn.svg": {
+      "file": "assets/static/watch-icn-12e4a5d9.svg",
+      "src": "src/images/watch-icn.svg"
     },
     "src/images/MGMhover1.svg": {
       "file": "assets/static/MGMhover1-bbbef0ea.svg",
@@ -210,7 +210,7 @@
       ]
     },
     "dist/hydration_templates/locator.tsx": {
-      "file": "assets/hydrate/locator.6587d779.js",
+      "file": "assets/hydrate/locator.7c1881c4.js",
       "src": "dist/hydration_templates/locator.tsx",
       "isEntry": true,
       "imports": [
@@ -226,7 +226,7 @@
       ]
     },
     "src/templates/locator.tsx": {
-      "file": "assets/server/locator.1649be16.js",
+      "file": "assets/server/locator.6248aab0.js",
       "src": "src/templates/locator.tsx",
       "isEntry": true,
       "imports": [

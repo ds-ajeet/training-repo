@@ -344,14 +344,14 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
             <div>
              
                 <VerticalResults
-                  displayAllOnNoResults={false}
+                   displayAllOnNoResults={false}                
                   CardComponent={LocationCard}
-                  locationResults={locationinbuit}
-                  customCssClasses={{
-                    container:
-                      "result-list flex flex-col scroll-smooth  overflow-auto",
+                  locationResults={locationResults}
+                  //customCssClasses={{
+                    //container:
+                      //"result-list flex flex-col scroll-smooth  overflow-auto",
 
-                  }}
+                  //}}
                   // CardComponent={LocationCard}
                 />
              
