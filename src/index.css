@@ -799,3 +799,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   height: 40px;
 
 }
+.headerLink{
+  margin-left: 15px;
+  padding-top: 25px;
+}

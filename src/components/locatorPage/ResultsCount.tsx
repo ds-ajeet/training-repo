@@ -4,7 +4,7 @@ import * as React from "react";
 import { CompositionMethod, useComposedCssClasses } from '../../hooks/useComposedCssClasses';
 
 interface ResultsCountCssClasses {
-  container?: string,
+   container?: string,
   text?: string,
   number?: string
 }

@@ -67,50 +67,6 @@ import * as React from "react";
 import logo from "../../images/mgmlogo.jpg";
 import SearchBar from "../locationDetail/search";
 import FilterSearch from "../locatorPage/FilterSearch";
-// type Link = {
-//   label: string;
-//   url: string;
-// };
-
-// const links: Link[] = [
-//   {
-//     label: "Timber",
-//     url: "/",
-//   },
-//   {
-//     label: "Landscaping",
-//     url: "#",
-//   },
-//   {
-//     label: "Sheet Materials",
-//     url: "#",
-//   },
-//   {
-//     label: "Kitchens & Bathrooms",
-//     url: "#",
-//   },
-//   {
-//     label: "Doors, Windows & Joinery",
-//     url: "#",
-//   },
-//   {
-//     label: "Flooring",
-//     url: "#",
-//   },
-//   {
-//     label: "Insulation & Membranes",
-//     url: "#",
-//   },
-//   {
-//     label: "Dry Lining",
-//     url: "#",
-//   },
-//   {
-//     label: "Tools",
-//     url: "#",
-//   }
-
-// ];
 
 const Header = (props: any) => {
   // console.log(props)
@@ -122,7 +78,6 @@ const Header = (props: any) => {
   };
   const linkDoms = props?._site?.c_headerLinks?.map((link: any) => (
     <a
-      style={{ color: "black" }}
       className="navbar-item"
       href="#"
     >
@@ -177,8 +132,7 @@ const Header = (props: any) => {
           className="text-black w-full font-bold"
         >
           <div
-            style={{ marginLeft: "15px" }}
-            className="flex gap-x-16 text-ml  pt-4"
+            className="flex gap-x-16 text-ml headerLink"
           >
             {linkDoms}
           </div>
