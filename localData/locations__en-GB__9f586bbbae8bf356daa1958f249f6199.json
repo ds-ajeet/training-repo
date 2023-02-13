@@ -350,6 +350,48 @@
 			"linkType": "URL"
 		}
 	],
+	"dm_directoryParents": [
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_root",
+					"uid": 108844
+				}
+			},
+			"name": "stores Directory",
+			"slug": "stores"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_country",
+					"uid": 108842
+				}
+			},
+			"name": "GB",
+			"slug": "gb"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_region",
+					"uid": 108843
+				}
+			},
+			"name": "Scotland",
+			"slug": "scotland"
+		},
+		{
+			"meta": {
+				"entityType": {
+					"id": "ce_city",
+					"uid": 108841
+				}
+			},
+			"name": "Wishaw",
+			"slug": "wishaw"
+		}
+	],
 	"emails": [
 		"mgmWishaw@mgmtimber.com"
 	],
