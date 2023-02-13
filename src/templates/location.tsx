@@ -116,7 +116,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
   var name: any = document.name.toLowerCase();
   var string: any = name.toString();;
   let result: any = string.replaceAll(" ", "-");
-  document?.dm_directoryParents?.map((result: any, i: number) => {
+  document.dm_directoryParents?.map((result: any, i: number) => {
     if (i > 0) {
       url += result.slug + "/"
     }
@@ -579,7 +579,7 @@ const Location: Template<ExternalApiRenderData> = ({
               </div>
               <div className="w-full md:w-1/2 about-sec px-5">
                 <h3 className="font-bold text-2xl ">
-                  MGM Timber {c_about.cTA.label} About
+                  MGM Timber {c_about?.cTA?.label} About
                 </h3>
                 <p className="mt-2">{c_about.description}</p>
 
