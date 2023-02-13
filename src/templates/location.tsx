@@ -574,7 +574,7 @@ const Location: Template<ExternalApiRenderData> = ({
             <div className="container mx-auto ab-secmain flex flex-wrap items-center">
               <div className="w-full md:w-1/2 px-5">
                 <div className="containerr">
-                  <img src={c_about.img.url} />
+                  <img src={c_about?.img?.url} />
                 </div>
               </div>
               <div className="w-full md:w-1/2 about-sec px-5">
