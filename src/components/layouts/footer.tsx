@@ -216,7 +216,7 @@ const Footer = (props: any) => {
             </ul>
           </div>
           
-          <div style={{marginRight:"15%"}} className="otherLinks">
+          <div style={{marginRight:"10%"}} className="otherLinks">
           <h2 style={{color:"white", font:"bold"}}>{props._site.c_newsletterHeading}</h2>
           {/* <h6>{props._site.c_newsletter}</h6> */}
                {/* <div style={{marginRight:"180px"}}> */}
@@ -232,7 +232,7 @@ const Footer = (props: any) => {
                     <>
                       <a href="#">
                         <img
-                          style={{ width: "35px", height: "35px" }}
+                          style={{ width: "50px", height: "35px" }}
                           src={res.icon.url}
                         />
                       </a>

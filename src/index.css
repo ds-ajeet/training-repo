@@ -668,7 +668,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   width: 160%;
 }
 .inputfrom{
-  width: 60%;
+  width: 50%;
   padding: 6px;
   line-height: 30px;
   border-radius: 4px;
@@ -680,8 +680,8 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   padding: 6px;
   line-height: 30px;
   border-radius: 4px;
-  width: 35%;
-  margin-left: 5%;
+  width: 30%;
+  margin-left: 3%;
   
 }
 .termcondition{
