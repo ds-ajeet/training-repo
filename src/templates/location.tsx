@@ -122,7 +122,7 @@ export const getPath: GetPath<TemplateProps> = ({ document }) => {
     }
   })
   if (!document.slug) {
-    url += `${result.slug}.html`;
+    url += `${result}.html`;
   } else {
     url += `${document.slug.toString()}.html`;
   }
