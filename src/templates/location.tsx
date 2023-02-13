@@ -532,13 +532,13 @@ const Location: Template<ExternalApiRenderData> = ({
               phone={mainPhone}
               latitude={
                 yextDisplayCoordinate
-                  ? yextDisplayCoordinate.latitude
+                  ? yextDisplayCoordinate?.latitude
                   : displayCoordinate?.latitude
               }
               yextDisplayCoordinate={yextDisplayCoordinate}
               longitude={
                 yextDisplayCoordinate
-                  ? yextDisplayCoordinate.longitude
+                  ? yextDisplayCoordinate?.longitude
                   : displayCoordinate?.longitude
               }
               hours={hours}
