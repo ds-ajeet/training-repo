@@ -799,7 +799,26 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   height: 40px;
 
 }
+.serviceLable:hover{
+  background-color: rgb(1 113 149 / var(--tw-bg-opacity));
+  
+}
 .headerLink{
   margin-left: 15px;
+  /* padding-top: 10px; */
+}
+.headerLink a {
+  color: inherit;
+  text-decoration: inherit;
+  height: 100px;
+  width: auto;
   padding-top: 25px;
+}
+
+.headerLink a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.visitButton:hover{
+  background-color: rgb(1 113 149 / var(--tw-bg-opacity));
 }
