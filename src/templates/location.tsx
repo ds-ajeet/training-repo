@@ -290,14 +290,14 @@ export const transformProps: TransformProps<ExternalApiData> = async (
   }`;
 
     const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
-    console.log(url);
+    // console.log(url);
     const externalApiData = (await fetch(url).then((res: any) =>
       res.json()
     )) as nearByLocation;
     return { ...data, externalApiData };
   };
 
-//   const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=3`;
+//   const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=4`;
 //   // console.log(url,"geosearchApi");
 //   const externalApiData = (await fetch(url).then((res: any) =>
 //     res.json()
@@ -317,6 +317,7 @@ const Location: Template<ExternalApiRenderData> = ({
   externalApiData,
 }) => {
   const {
+    id,
     _site,
     address,
     slug,
@@ -600,7 +601,7 @@ const Location: Template<ExternalApiRenderData> = ({
                 {yextDisplayCoordinate ||
                 cityCoordinate ||
                 displayCoordinate ? (
-                  <Nearby externalApiData={externalApiData} />
+                  <Nearby externalApiData={externalApiData} currentId={id} />
                 ) : (
                   ""
                 )}

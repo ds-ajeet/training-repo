@@ -111,7 +111,7 @@ const Header = (props: any) => {
               
           </div>
           <div>
-          <SearchBar/>
+          {/* <SearchBar/> */}
           {/* <FilterSearch /> */}
           </div>
           <div className="flex items-center font-bold text-lg">{Headercountact}</div>
