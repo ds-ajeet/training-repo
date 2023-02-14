@@ -810,7 +810,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .headerLink a {
   color: inherit;
   text-decoration: inherit;
-  height: 100px;
+  height: 70px;
   width: auto;
   padding-top: 25px;
 }
