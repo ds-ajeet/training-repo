@@ -102,17 +102,14 @@
 		"c_headerFirst": [
 			{
 				"label": "Job List",
-				"link": "https://www.mgmtimber.co.uk/customer/account/login/referer/aHR0cHM6Ly93d3cubWdtdGltYmVyLmNvLnVrL213aXNobGlzdC93aXNobGlzdC9pbmRleC8%2C/",
 				"linkType": "URL"
 			},
 			{
 				"label": "Branch Locator",
-				"link": "https://www.mgmtimber.co.uk/branch-locator",
 				"linkType": "URL"
 			},
 			{
 				"label": "My Account",
-				"link": "https://www.mgmtimber.co.uk/customer/account/login/",
 				"linkType": "URL"
 			},
 			{

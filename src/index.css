@@ -822,3 +822,6 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .visitButton:hover{
   background-color: rgb(1 113 149 / var(--tw-bg-opacity));
 }
+.navbar-item:hover{
+  color: #63aaec;
+}

@@ -179,7 +179,7 @@ const Footer = (props: any) => {
   );
    const countact = props?._site?.c_countact?.map((link: any) => (
      <a  className="navbar-item" href="#" >
-       <span>{link.label}</span><br />
+       <span>{link.label}</span><br/>
      </a>
    ));
   return (
