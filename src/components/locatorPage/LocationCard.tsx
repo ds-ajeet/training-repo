@@ -127,8 +127,9 @@ function opentime(e: any) {
                    </div>}
 
             </div>
-            <div><div style={{marginLeft:"30px"}}><h2>Services</h2>
-            <div>
+            {/* <div> */}
+              {/* <div style={{marginLeft:"30px"}}><h2>Services</h2> */}
+            {/* <div>
            {result.rawData.c_service&&result.rawData.c_service.map((server:any)=>{
             return( 
 
@@ -136,8 +137,9 @@ function opentime(e: any) {
                
            )
            })}
-           </div>
-           </div></div>
+           </div> */}
+           {/* </div> */}
+           {/* </div> */}
          
              <div className="button-bx">
               <Link type="button" href={`${url}`} className=" btn notHighlight "

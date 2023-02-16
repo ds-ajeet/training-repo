@@ -585,7 +585,7 @@ const Location: Template<ExternalApiRenderData> = ({
                 <p className="mt-2">{c_about.description}</p>
 
                 <div className="visitButton mt-6">
-                  <button>About Us</button>
+                  <button>Read More</button>
                 </div>
               </div>
             </div>

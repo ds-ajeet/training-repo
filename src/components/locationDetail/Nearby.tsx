@@ -183,7 +183,7 @@ import { StaticData } from "../../../sites-global/staticData";
 export default function Nearby(props: any) {
   
   const [neabyData, setnearbyData] = React.useState(props.externalApiData.response.results);
-  console.log(props,"hell");
+  // console.log(props,"hell");
   const metersToMiles = (meters: number) => {
 
     const miles = meters * 0.000621371;
@@ -235,7 +235,7 @@ export default function Nearby(props: any) {
             url = `/${location.data.id}-${result1}.html`;
           } else {
             url = `/${main_result}`;
-            console.log(url,"url");
+            // console.log(url,"url");
           }
       
           if (index > 0) {
@@ -283,7 +283,9 @@ export default function Nearby(props: any) {
                       <GetDirection buttonText={props.c_getDirectionsCTAText?props.c_getDirectionsCTAText:"Get directions"} address={location.data.address} latitude={location.data.displayCoordinate ? location.data.displayCoordinate.latitude : location.data.yextDisplayCoordinate.latitude} longitude={location.data.displayCoordinate ? location.data.displayCoordinate.longitude : location.data.yextDisplayCoordinate.longitude} />
                       
                     </div>
+                    
                   </div>
+                  
                 {/* </SplideSlide> */}
               </>
 
