@@ -167,7 +167,7 @@ body.mapView .mobile-btns .btn.mapBtn{  @apply text-Dark-red border-t-0 border-l
 .scrollbar-container.ps--active-y{ @apply pr-6}
 body .ps:hover .ps__rail-y{@apply opacity-100}
 body .ps__rail-y{ @apply opacity-100 mt-4 !bg-gray-light w-4}
-body .ps__thumb-y{ @apply bg-gray-dark opacity-100 right-1 w-2}
+body .ps__thumb-y{ @apply bg-Dark-red opacity-100 right-1 w-2}
 body .ps__rail-y:hover .ps__thumb-y{ @apply w-2 bg-gray-dark}
 table.day-hrs{  @apply border-none w-full mb-4}
 table.day-hrs td{ @apply   text-right  }
@@ -488,11 +488,11 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 .social-media-bx li{@apply mx-3}
 .social-media-bx li a{@apply transform transition-all duration-300 scale-100 hover:scale-105 inline-block}
 .company-logo svg{ @apply mr-0  mt-5 w-[166px] h-[70px] }
-.locator-main .result{ @apply border-l-4 }
+.locator-main .result{ @apply border-l-4}
 
 .locator-main .result.active{@apply border-l-4 border-l-hover-border}
-.locator-main .result.fixed-hover.active{@apply border-l-4 border-l-red}
-.locator-main .result.fixed-hover{@apply border-l-4 border-l-red}
+.locator-main .result.fixed-hover.active{@apply border-l-4}
+.locator-main .result.fixed-hover{@apply border-l-4}
 .footer-block{  @apply border-b border-border-light py-3 lg:py-0 lg:border-none px-5}
 .footer-block-title{  @apply text-lg lg:text-[1.28571rem] font-semibold leading-6 pb-1 lg:pb-2}
 .footer-block ul li a{  @apply text-base leading-6 py-1 inline-block align-top hover:underline}
