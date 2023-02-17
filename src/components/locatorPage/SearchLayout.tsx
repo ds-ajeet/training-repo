@@ -308,7 +308,7 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
           <button className="useMyLocation" title="Search using your current location!" id="useLocation" onClick={onClick}>
               <span className="icon" dangerouslySetInnerHTML={{ __html: UseMylocationsvg }} />
 
-             <span className="underline hover:no-underline"> {StaticData.Usemylocation}</span>
+             <span className="underline hover:no-underline ml-4"> {StaticData.Usemylocation}</span>
             </button>
 
           <ResultsCount

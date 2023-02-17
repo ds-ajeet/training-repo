@@ -3,7 +3,7 @@ export const StaticData = {
     Meta_description:"Visit Matalan Demo Store | Matalan is your local great value family retailer shop. Find latest seasonal looks for Women, Men and kids, plus a huge range of homeware.",
     locator_breadcrumb:"Store Locator",
     FindLocationtext:"Find a branch",
-    Usemylocation:"location",
+    Usemylocation:"Use My Location",
     Search:"Search",
     Brandname:"MGM Timber",
     miles:"miles",
