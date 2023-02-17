@@ -3,7 +3,7 @@
     "404": "assets/server/404.e30ba9ab.js",
     "city": "assets/server/city.6c79cc0e.js",
     "country": "assets/server/country.e1e0a711.js",
-    "location": "assets/server/location.3a0d8ebd.js",
+    "location": "assets/server/location.80e279c2.js",
     "locator": "assets/server/locator.a19ffc77.js",
     "robots": "assets/server/robots.22d0f567.js",
     "State": "assets/server/State.b1967a89.js"
@@ -25,10 +25,6 @@
         "_server.browser-ba80ba4b.js"
       ]
     },
-    "src/images/MGM_About_Us_Image.webp": {
-      "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
-      "src": "src/images/MGM_About_Us_Image.webp"
-    },
     "src/images/map.svg": {
       "file": "assets/static/map-05379a2e.svg",
       "src": "src/images/map.svg"
@@ -40,6 +36,10 @@
     "src/images/MGMpin.svg": {
       "file": "assets/static/MGMpin-0521d029.svg",
       "src": "src/images/MGMpin.svg"
+    },
+    "src/images/MGM_About_Us_Image.webp": {
+      "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
+      "src": "src/images/MGM_About_Us_Image.webp"
     },
     "src/images/red-map.svg": {
       "file": "assets/static/red-map-55834b8a.svg",
@@ -168,7 +168,7 @@
       ]
     },
     "dist/hydration_templates/location.tsx": {
-      "file": "assets/hydrate/location.c7eb2f85.js",
+      "file": "assets/hydrate/location.560d742b.js",
       "src": "dist/hydration_templates/location.tsx",
       "isEntry": true,
       "imports": [
@@ -185,7 +185,7 @@
       ]
     },
     "src/templates/location.tsx": {
-      "file": "assets/server/location.3a0d8ebd.js",
+      "file": "assets/server/location.80e279c2.js",
       "src": "src/templates/location.tsx",
       "isEntry": true,
       "imports": [
@@ -334,7 +334,7 @@
         "_jsx-runtime-3acbe3a0.js"
       ],
       "css": [
-        "assets/static/openClose-ed07414d.css"
+        "assets/static/openClose-adf56394.css"
       ],
       "assets": [
         "assets/static/dots-c532748f.svg",
@@ -385,7 +385,7 @@
       "src": "src/templates/locator.css"
     },
     "openClose.css": {
-      "file": "assets/static/openClose-ed07414d.css",
+      "file": "assets/static/openClose-adf56394.css",
       "src": "openClose.css"
     }
   }

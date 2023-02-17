@@ -818,7 +818,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
 }
 
 .headerLink a:hover{
-  background-color: #000;
+  /* background-color: #000; */
   color: #fff;
 }
 .visitButton:hover{
@@ -968,6 +968,6 @@ transition: 0.5s ease all;
   width: 40px;
   background-color: #fff;
 } */
-/* .container{
-  max-width: 1400px;
-} */
+.container{
+  max-width: 1330px;
+}

@@ -1,68 +1,3 @@
-// import * as React from "react";
-// import Cta from "../commons/cta";
-
-//   type Link = {
-//     label: string;
-//     url: string;
-//   };
-
-//   const links: Link[] = [
-//     {
-//       label: "Home",
-//       url: "/",
-//     },
-//     {
-//       label: "About",
-//       url: "/about",
-//     },
-//     {
-//       label: "Menu",
-//       url: "/menu.html",
-//     },
-//     {
-//       label: "Locator",
-//       url: "/locator",
-//     }
-//   ];
-
-//   const Header = (props:any) => {
-//       console.log(props)
-//         React.useEffect(()=>{
-//           document.body.setAttribute("id","body");
-//         })
-//       const linkDoms = props._site.c_headerlinks.map((link:any) => (
-//           <a className="navbar-item" href={link.link} >
-//             <span>{link.label}</span>
-//           </a>
-//       ));
-
-//   return (
-//     <>
-{
-  /* <div className="centered-container">
-        <nav className="py-3 flex items-center justify-between">
-          <img
-              src="https://a.mktgcdn.com/p/8esDUBrhKJnkaVztLihLsC3quv_5BjLFG9L6MJ0adcs/150x150.png">
-            <div className="flex gap-x-10 text-lg font-semibold">{linkDoms}</div>
-          <div className="hidden space-x-5 sm:block">
-            <Cta buttonText="Order Pickup" url="#" style="primary-cta"></Cta>
-            <Cta buttonText="Order Delivery" url="#" style="secondary-cta"></Cta>
-          </div>
-        </nav>
-      </div> */
-}
-// import { SearchBar } from "@yext/search-ui-react";
-//       <div className="container">
-//           <nav className="navbar" style={{color:"#F9DDDD"}}>
-//              {linkDoms}
-//            </nav>
-//          </div>
-//     </>
-//   );
-// };
-
-// export default Header;
-
 import * as React from "react";
 import logo from "../../images/mgmlogo.jpg";
 import SearchBar from "../locationDetail/search";
@@ -112,7 +47,7 @@ const Header = (props: any) => {
           </div>
           <div>
           <SearchBar/>
-          {/* <FilterSearch /> */}
+          
           </div>
           <div className="flex items-center font-bold text-lg">{Headercountact}</div>
         

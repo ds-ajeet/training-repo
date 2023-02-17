@@ -114,20 +114,19 @@ export const config: TemplateConfig = {
 export const getPath: GetPath<TemplateProps> = ({ document }) => {
   var url = "";
   var name: any = document.name.toLowerCase();
-  var string: any = name.toString();;
+  var string: any = name.toString();
   let result: any = string.replaceAll(" ", "-");
   document.dm_directoryParents?.map((result: any, i: number) => {
     if (i > 0) {
-      url += result.slug + "/"
+      url += result.slug + "/";
     }
-  })
+  });
   if (!document.slug) {
     url += `${result}.html`;
   } else {
     url += `${document.slug.toString()}.html`;
   }
- return url;
-
+  return url;
 
   // var url: any = ""
   // document.dm_directoryParents?.map((i: any) => {
@@ -289,13 +288,13 @@ export const transformProps: TransformProps<ExternalApiData> = async (
       : data.document.displayCoordinate.longitude
   }`;
 
-    const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
-    // console.log(url);
-    const externalApiData = (await fetch(url).then((res: any) =>
-      res.json()
-    )) as nearByLocation;
-    return { ...data, externalApiData };
-  };
+  const url = `${AnswerExperienceConfig.endpoints.verticalSearch}?experienceKey=${AnswerExperienceConfig.experienceKey}&api_key=${AnswerExperienceConfig.apiKey}&v=20220511&version=${AnswerExperienceConfig.experienceVersion}&locale=${AnswerExperienceConfig.locale}&location=${location}&locationRadius=${AnswerExperienceConfig.locationRadius}&verticalKey=${AnswerExperienceConfig.verticalKey}&limit=4&retrieveFacets=true&skipSpellCheck=false&sessionTrackingEnabled=true&source=STANDARD`;
+  // console.log(url);
+  const externalApiData = (await fetch(url).then((res: any) =>
+    res.json()
+  )) as nearByLocation;
+  return { ...data, externalApiData };
+};
 
 //   const url = `https://liveapi-sandbox.yext.com/v2/accounts/me/entities/geosearch?radius=2500&location=${data.document.yextDisplayCoordinate.latitude},${data.document.yextDisplayCoordinate.longitude}&api_key=6956f7fbd94335e6e56d02e4e44f1f9a&v=20181201&resolvePlaceholders=true&entityTypes=location&limit=4`;
 //  console.log(url)
@@ -568,9 +567,11 @@ const Location: Template<ExternalApiRenderData> = ({
             )}
           </div>
           <div style={{ textAlign: "center", marginTop: "50px" }}>
-          <h1 style={{color:"rgb(2 166 219 / var(--tw-text-opacity))"}}>SERVICES</h1>
-          {c_service ? <Services c_service={c_service} /> : ""}
-        </div>
+            <h1 style={{ color: "rgb(2 166 219 / var(--tw-text-opacity))" }}>
+              SERVICES
+            </h1>
+            {c_service ? <Services c_service={c_service} /> : ""}
+          </div>
           <div className="py-10">
             <div className="container mx-auto ab-secmain flex flex-wrap items-center">
               <div className="w-full md:w-1/2 px-5">
@@ -590,7 +591,6 @@ const Location: Template<ExternalApiRenderData> = ({
               </div>
             </div>
           </div>
-
 
           <div className="nearby-sec">
             <div className="container">
@@ -613,13 +613,10 @@ const Location: Template<ExternalApiRenderData> = ({
         </AnalyticsScopeProvider>
       </AnalyticsProvider>
       <div>
-       
-          <Faq faqs={c_faq} />
-        </div>
-        {/* <FAQs faqs={c_faq}/> */}
-        {/* <About /> */}
-      
-      <div></div>
+        <Faq faqs={c_faq} />
+      </div>
+
+      {/* <About /> */}
       <Footer _site={_site} />
     </>
   );
