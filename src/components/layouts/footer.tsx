@@ -218,10 +218,9 @@ const Footer = (props: any) => {
           
           <div style={{marginRight:"10%"}} className="otherLinks">
           <h2 style={{color:"white", font:"bold"}}>{props._site.c_newsletterHeading}</h2>
-          {/* <h6>{props._site.c_newsletter}</h6> */}
-               {/* <div style={{marginRight:"180px"}}> */}
-                  <div className="subscribe pt-4"><SubscribeForm/></div>
-            {/* </div> */}
+           <div style={{width:"360px" }} className="pt-4"><h6 style={{color:"#7b7b7b"}}>{props._site.c_newsletter}</h6> </div>
+               
+                  <div className="subscribe"><SubscribeForm/></div>
             <div className="socialmediaData">
               <h5 style={{ color: "white" }} className="socialmedias">
                 {props._site.headline}
@@ -243,7 +242,7 @@ const Footer = (props: any) => {
             </div>
           </div>
           
-          <div style={{paddingTop:"50px"}}><img src={props._site.c_jdGroups.url} width="260px" alt="logo" /></div>
+          <div><img src={props._site.c_jdGroups.url} width="260px" alt="logo" /></div>
           <div style={{ color: "#7b7b7b" }}>
             <div
               style={{ width: "1150px", color: "#e9e9e9" }}
