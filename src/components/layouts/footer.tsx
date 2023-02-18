@@ -218,7 +218,7 @@ const Footer = (props: any) => {
           
           <div className="otherLinks">
           <h2 style={{color:"white", font:"bold"}}>{props._site.c_newsletterHeading}</h2>
-           <div style={{width:"360px" }} className="pt-4"><h5 style={{color:"#7b7b7b"}}>{props._site.c_newsletter}</h5> </div>
+           <div style={{width:"360px" }} className="pt-4"><h6 style={{color:"#7b7b7b"}}>{props._site.c_newsletter}</h6> </div>
                
                   <div className="subscribe"><SubscribeForm/></div>
             <div className="socialmediaData">
