@@ -161,6 +161,7 @@
 
 import * as React from "react";
 import SubscribeForm from "../commons/Newsletter";
+import { emails_icn } from "../../../sites-global/global";
 
 const Footer = (props: any) => {
   const Aboutm = props?._site?.c_aboutMgm?.headingLink?.map((link: any) => (
@@ -177,11 +178,12 @@ const Footer = (props: any) => {
       </a>
     )
   );
-   const countact = props?._site?.c_countact?.map((link: any) => (
-     <a  className="navbar-item" href="#" >
-       <span>{link.label}</span><br/>
-     </a>
-   ));
+  const countact = props?._site?.c_countact?.map((link: any) => (
+    <a className="navbar-item" href="#">
+      <span>{link.label}</span>
+      <br />
+    </a>
+  ));
   return (
     <>
       <footer
@@ -215,17 +217,43 @@ const Footer = (props: any) => {
               </li>
             </ul>
           </div>
-          
+
           <div className="otherLinks">
-          <h2 style={{color:"white", font:"bold"}}>{props._site.c_newsletterHeading}</h2>
-           <div style={{width:"360px" }} className="pt-4"><h6 style={{color:"#7b7b7b"}}>{props._site.c_newsletter}</h6> </div>
-               
-                  <div className="subscribe"><SubscribeForm/></div>
+            {/* <div className=""> */}
+              <div className="flex flex-row" style={{ width: "40px" }}>
+                <span
+                  className="icon"
+                  dangerouslySetInnerHTML={{ __html: emails_icn }}
+                />
+                <div>
+                  <h2
+                    style={{
+                      color: "white",
+                      font: "bold",
+                      width: "220px",
+                      marginInline: "15px",
+                    }}
+                  >
+                    {props._site.c_newsletterHeading}
+                  </h2>
+                </div>
+              </div>
+
+              <div style={{ width: "360px" }}>
+                <h6 style={{ color: "#7b7b7b", marginLeft: "50px" }}>
+                  {props._site.c_newsletter}
+                </h6>{" "}
+              </div>
+            {/* </div> */}
+
+            <div className="subscribe">
+              <SubscribeForm />
+            </div>
             <div className="socialmediaData">
               <h4 style={{ color: "white" }} className="socialmedias">
                 {props._site.headline}
               </h4>
-              <ul className="socialmedia grid grid-cols-6 gap-x-4 gap-y-4">
+              <ul className="socialmedia grid grid-cols-6 gap-x-2 gap-y-2">
                 {props._site.c_socialIcons.map((res: any) => {
                   return (
                     <>
@@ -241,17 +269,19 @@ const Footer = (props: any) => {
               </ul>
             </div>
           </div>
-          
-          <div><img src={props._site.c_jdGroups.url} width="260px" alt="logo" /></div>
+
+          <div>
+            <img src={props._site.c_jdGroups.url} width="260px" alt="logo" />
+          </div>
           <div style={{ color: "#7b7b7b" }}>
             <div
               style={{ width: "1150px", color: "#e9e9e9" }}
               className="policy grid grid-cols-2"
             >
-               <div className="termcondition">
-              <a href="#">{props._site.c_cookiePolicy.label}</a>
-              <a href="#">{props._site.c_privacyPolicy.label}</a>
-              <a href="#">{props._site.c_termAndConditioon.label}</a>
+              <div className="termcondition">
+                <a href="#">{props._site.c_cookiePolicy.label}</a>
+                <a href="#">{props._site.c_privacyPolicy.label}</a>
+                <a href="#">{props._site.c_termAndConditioon.label}</a>
               </div>
               <div className="paymentImg">
                 <img src={props._site.c_payment.url} alt="logo" />
@@ -262,7 +292,6 @@ const Footer = (props: any) => {
           </div>
         </div>
       </footer>
-      
     </>
   );
 };
