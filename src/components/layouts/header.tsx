@@ -27,24 +27,36 @@ const Header = (props: any) => {
   ));
 
   return (
-    <>    
+    <>   
+    <div style={{height:"33px" ,width:"300px",marginLeft:"930px"}} className="grid grid-cols-3 pt-4">
+        <a><h3 style={{fontWeight:"bold",fontSize:"17px"}}>{props._site.c_trustpilot.label}</h3></a>
+        <a><img src={props._site.c_trustpilot.link} width="130" /></a>
+      
+        
+        <a><img src={props._site.c_trust.url} width="90" alt="logo"/> </a>
+        </div>
+    
       <div
         style={{ background: "white", height: "100px" }}
         id="header"
         className="header-nav"
       >
         
+        
         <div
           style={{ marginLeft: "25px" }}
           className="container header-content flex items-center justify-between"
         >
           
-          
-          <div className="logo pt-4 w-auto">
-            
+          <div className="logo w-auto">
+          {/* <img src={props._site.c_trust.url} width="90" alt="logo" style={{marginLeft:"10s00px"}}/>  */}
               <a href="#"><img src={props._site.c_mgmTimberLogo.url} width="150" alt="logo"/></a>
-              
+             
           </div>
+         
+          
+          
+          
           <div>
           <SearchBar/>
           

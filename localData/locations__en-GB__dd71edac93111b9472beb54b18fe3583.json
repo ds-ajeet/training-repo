@@ -251,6 +251,16 @@
 		"c_termAndConditioon": {
 			"label": "Terms \u0026 Conditions"
 		},
+		"c_trust": {
+			"height": 337,
+			"url": "https://a.mktgcdn.com/p-sandbox/3YMzQE289i7dQWeowwZr_U0xnbc0-UQDIDWVLxGqFGo/1284x337.png",
+			"width": 1284
+		},
+		"c_trustpilot": {
+			"label": "Excellent",
+			"link": "https://www.blindsbypost.co.uk/bbp/img/trustpilot_stars.png",
+			"linkType": "URL"
+		},
 		"headline": "Follow Us",
 		"id": "globleData",
 		"meta": {
