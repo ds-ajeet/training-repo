@@ -222,9 +222,9 @@ const Footer = (props: any) => {
                
                   <div className="subscribe"><SubscribeForm/></div>
             <div className="socialmediaData">
-              <h5 style={{ color: "white" }} className="socialmedias">
+              <h4 style={{ color: "white" }} className="socialmedias">
                 {props._site.headline}
-              </h5>
+              </h4>
               <ul className="socialmedia grid grid-cols-6 gap-x-4 gap-y-4">
                 {props._site.c_socialIcons.map((res: any) => {
                   return (
