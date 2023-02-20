@@ -179,7 +179,7 @@ const Footer = (props: any) => {
     )
   );
   const countact = props?._site?.c_countact?.map((link: any) => (
-    <a className="navbar-item" href="#">
+    <a className="navbar-item pt-4" href="#">
       <span>{link.label}</span>
       <br />
     </a>
@@ -193,9 +193,9 @@ const Footer = (props: any) => {
         <div className="container">
           <div className="store-locator">
             <div className="company-logo">
-              <img src={props._site.c_mgmTimberLogo.url} alt="logo" style={{width:"60%"}}/>
+              <img src={props._site.c_mgmTimberLogo.url} alt="logo" width="150"/>
             </div>
-            <div className="countact">{countact}</div>
+            <div className="countact grid grid-cols-2">{countact}</div>
           </div>
           <div style={{ color: "#fff" }}>
             <h2>{props._site?.c_customer_Services.headerLinkHeading}</h2>
@@ -269,7 +269,7 @@ const Footer = (props: any) => {
           </div>
 
           <div style={{marginTop:"-20px"}}>
-            <img src={props._site.c_jdGroups.url} width="290px" alt="logo" />
+            <img src={props._site.c_jdGroups.url} width="250px" alt="logo" />
           </div>
           <div style={{ color: "#7b7b7b" }}>
             <div
