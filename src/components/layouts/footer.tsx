@@ -193,7 +193,7 @@ const Footer = (props: any) => {
         <div className="container">
           <div className="store-locator">
             <div className="company-logo">
-              <img src={props._site.c_mgmTimberLogo.url} alt="logo" />
+              <img src={props._site.c_mgmTimberLogo.url} alt="logo" style={{width:"60%"}}/>
             </div>
             <div className="countact">{countact}</div>
           </div>
@@ -219,7 +219,6 @@ const Footer = (props: any) => {
           </div>
 
           <div className="otherLinks">
-            {/* <div className=""> */}
               <div className="flex flex-row" style={{ width: "40px" }}>
                 <span
                   className="icon"
@@ -244,7 +243,6 @@ const Footer = (props: any) => {
                   {props._site.c_newsletter}
                 </h6>{" "}
               </div>
-            {/* </div> */}
 
             <div className="subscribe">
               <SubscribeForm />
@@ -253,13 +251,13 @@ const Footer = (props: any) => {
               <h4 style={{ color: "white" }} className="socialmedias">
                 {props._site.headline}
               </h4>
-              <ul className="socialmedia grid grid-cols-6 gap-x-2 gap-y-2">
+              <ul className="socialmedia inline-grid grid-cols-6 gap-x-2 gap-y-2">
                 {props._site.c_socialIcons.map((res: any) => {
                   return (
                     <>
                       <a href="#">
                         <img
-                          style={{ width: "50px", height: "35px" }}
+                          style={{ width: "30px", height: "25px" }}
                           src={res.icon.url}
                         />
                       </a>
@@ -270,8 +268,8 @@ const Footer = (props: any) => {
             </div>
           </div>
 
-          <div>
-            <img src={props._site.c_jdGroups.url} width="260px" alt="logo" />
+          <div style={{marginTop:"-20px"}}>
+            <img src={props._site.c_jdGroups.url} width="290px" alt="logo" />
           </div>
           <div style={{ color: "#7b7b7b" }}>
             <div
