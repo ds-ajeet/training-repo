@@ -184,8 +184,8 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
   let bannerimage = props._site.c_locatorBannerImage != undefined  ? props._site.c_locatorBannerImage.image.url:'';
  
 
-  // const loader =
-  //   isLoading ? <LoadingSpinner /> : '';
+  const loader =
+    isLoading ? <LoadingSpinner /> : '';
 
   const addClass = () => {
 
@@ -224,7 +224,7 @@ const loading = useSearchState(s=>s.searchStatus.isLoading);
   return (
     <>
 
-      {/* {loader} */}
+      {loader}
       <div className="breadcrumb">
         <div className="container-custom">
           <ul>

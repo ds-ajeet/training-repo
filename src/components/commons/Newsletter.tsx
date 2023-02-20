@@ -46,7 +46,7 @@ import { useState } from "react";
     }
   
     return (
-      <div className="pt-2">
+      <div className="pt-0">
         {status === "SUCCESS" && (
             <><p>
                     {/* Welcome aboard{name ? `, ${name}` : ""}{" "} */}

@@ -220,7 +220,7 @@ const Footer = (props: any) => {
 
           <div className="otherLinks">
               <div className="flex flex-row" style={{ width: "40px" }}>
-                <span
+                <span style={{marginTop:"10px"}}
                   className="icon"
                   dangerouslySetInnerHTML={{ __html: emails_icn }}
                 />
@@ -238,8 +238,8 @@ const Footer = (props: any) => {
                 </div>
               </div>
 
-              <div style={{ width: "360px" }}>
-                <h6 style={{ color: "#7b7b7b", marginLeft: "50px" }}>
+              <div style={{ width: "360px",marginLeft:"60px",marginTop:"-20px"}}>
+                <h6 style={{ color: "#7b7b7b"}}>
                   {props._site.c_newsletter}
                 </h6>{" "}
               </div>
@@ -282,11 +282,11 @@ const Footer = (props: any) => {
                 <a href="#">{props._site.c_termAndConditioon.label}</a>
               </div>
               <div className="paymentImg">
-                <img src={props._site.c_payment.url} alt="logo" />
+                <img src={props._site.c_payment.url} alt="logo" width="400"/>
               </div>
             </div>
 
-            <div className="mt-2">{props._site.c_footerDescription}</div>
+            <div className="footerDescription">{props._site.c_footerDescription}</div>
           </div>
         </div>
       </footer>
