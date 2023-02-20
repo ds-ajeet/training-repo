@@ -29,11 +29,11 @@ const Header = (props: any) => {
   return (
     <>   
     <div style={{height:"33px" ,width:"300px",marginLeft:"930px"}} className="grid grid-cols-3 pt-4">
-        <a><h3 style={{fontWeight:"bold",fontSize:"17px"}}>{props._site.c_trustpilot.label}</h3></a>
-        <a><img src={props._site.c_trustpilot.link} width="130" /></a>
+        <a href="#"><h3 style={{fontWeight:"bold",fontSize:"17px"}}>{props._site.c_trustpilot.label}</h3></a>
+        <a href="#"><img src={props._site.c_trustpilot.link} width="130" /></a>
       
         
-        <a><img src={props._site.c_trust.url} width="90" alt="logo"/> </a>
+        <a href="#"><img src={props._site.c_trust.url} width="90" alt="logo"/> </a>
         </div>
     
       <div
