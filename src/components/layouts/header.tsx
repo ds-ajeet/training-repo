@@ -58,7 +58,7 @@ const Header = (props: any) => {
           
           
           <div>
-          {/* <SearchBar/> */}
+          <SearchBar/>
           
           </div>
           <div className="flex items-center font-bold text-lg">{Headercountact}</div>
