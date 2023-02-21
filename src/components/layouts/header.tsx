@@ -37,7 +37,7 @@ const Header = (props: any) => {
         </div>
     
       <div
-        style={{ background: "white", height: "80px" }}
+        style={{ background: "white", height: "85px" }}
         id="header"
         className="header-nav"
       >
@@ -58,7 +58,7 @@ const Header = (props: any) => {
           
           
           <div>
-          <SearchBar/>
+          {/* <SearchBar/> */}
           
           </div>
           <div className="flex items-center font-bold text-lg">{Headercountact}</div>
