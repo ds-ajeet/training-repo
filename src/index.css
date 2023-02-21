@@ -972,3 +972,15 @@ transition: 0.5s ease all;
   margin-top: -20px;
   height: 70px;
 }
+.active.daylist{ @apply  !block pl-[50px]}
+.OpenCloseStatus .daylist{@apply hidden}
+
+.openHourse{
+  color: #02a6db;
+  margin-top: 5px;
+
+}
+.openclose{
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+}

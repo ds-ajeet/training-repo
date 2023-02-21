@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useEffect, useRef, useState } from 'react';
 import { CardComponent } from "@yext/search-ui-react";
 import { Location } from "../../types/search/locations";
 import GetDirection from "../commons/GetDirection";
@@ -9,7 +10,7 @@ import OpenClose from "../commons/openClose";
 import { StaticData } from "../../../sites-global/staticData";
 import { Link } from "@yext/pages/components";
 import Hours from "../commons/hours";
-import {Openclose,mobilesvg } from "../../../sites-global/global";
+import {Openclose,mobilesvg,View_Store } from "../../../sites-global/global";
 
 
 const metersToMiles = (meters: number) => {
@@ -21,12 +22,21 @@ let array = [];
 
 
 const LocationCard: CardComponent<Location> = ({result}) => {
+  const [timeStatus, setTimeStatus] = useState("");
+  const onOpenHide = () => {
+    if (timeStatus == "") {
+      setTimeStatus("active");
+    } else {
+      setTimeStatus("");
+    }
+  }
+
 
   let url = "";
   const[hoursopen,setHoursopen]=React.useState(false);
 
 function opentime(e: any) {
-  // console.log(e.target);
+  // console.log(e.target,"dsd");
   var closethis = e.target.closest(".lp-param-results");
   if (closethis.querySelector('.storelocation-openCloseTime').classList.contains("hidden")) {
     closethis.querySelector('.storelocation-openCloseTime').classList.remove("hidden")
@@ -38,7 +48,7 @@ function opentime(e: any) {
   }
 }
 
-    const { address } = result.rawData;
+    const { address, hours, additionalHoursText,  timezone } = result.rawData;
     
   var name: any = result.rawData.name?.toLowerCase();
   // let name1:any=country+"/"+finalregion+"/"+finalcity+"/"+result.rawData.slug+".html";
@@ -93,45 +103,37 @@ function opentime(e: any) {
             
             <div className="icon-row content-col address-with-availablity notHighlight">
               <Address address={address} />
-              <div className="pt-4">
+              
+              <div className="pt-2">
               <label>Telephone&nbsp;&nbsp;<a href="#" style={{color:"#0067c8"}}>{result.rawData.mainPhone}</a></label>
               <br/><label>Email
               &nbsp;<a href="#" style={{color:"#0067c8"}}>{result.rawData.emails}</a></label>
               </div>
-              {result.rawData.hours ? <>
-              <div className="mt-2">
-              <h6 style={{color:"red"}}>Opening Hours</h6>
-                {result.rawData.hours?.reopenDate ? <>
-                  <div className="icon"> <img className=" " src={timesvg} width="20" height="20" alt="" /> </div>
-                  <div className=" flex open-now-string items-center " data-id={`main-shop-${result.rawData.id}`} onClick={opentime}>
-                    {StaticData.tempClosed}
-                  </div>
-                </>
-                  : <> 
-                    <div className=" flex open-now-string items-center" data-id={`main-shop-${result.rawData.id}`} >
-                    
-                    {/* <span className="icon" dangerouslySetInnerHTML={{ __html: Openclose }} /> */}
-                      <OpenClose timezone={result.rawData.timezone} hours={result.rawData.hours} deliveryHours={result.rawData.hours}></OpenClose>
-                     
-                    </div></>}
+              <div className="open-close ">
+                <h5 className="openHourse">Opening Hours</h5>
+          <div className="hours-sec onhighLight">
+            <div className="OpenCloseStatus ">
+              <div className="hours-labels">
+                <span className="icon"></span>
+                <button><div className="flex" onClick={onOpenHide}>
+                 <OpenClose
+                    timezone={timezone}
+                    hours={hours}
+                    deliveryHours={hours}
+                  ></OpenClose>
+                 <svg className="openclose" xmlns="http://www.w3.org/2000/svg" width="19.585" height="7.793" viewBox="0 0 9.585 4.793">
+                  <path id="hrd-drop" d="M9,13.5l4.793,4.793L18.585,13.5Z" transform="translate(-9 -13.5)" fill="#02a6db"></path>
+                 </svg>
+                 </div></button>
 
-
-                <div className={`storelocation-openCloseTime  capitalize hidden`}>
-                    {hoursopen?
-                   typeof result.rawData.hours === "undefined" ? ("") :
-                     <Hours key={result.rawData.name} additionalHoursText={result.rawData.additionalHoursText} hours={result.rawData.hours} c_specific_day={result.rawData.c_specific_day} />
-                   :''}
-                </div>
-              </div></> : <div className="closeddot notHighlight red-dot">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8">
-           <circle id="Ellipse_5" data-name="Ellipse 5" cx="4" cy="4" r="4" fill="#ad1e1f"/>
-         </svg>
-                   <div className="hours-info text-lg font-second-main-font closeddot"> 
-                   Closed
-                   </div>
-                   </div>}
-
+              </div>
+              <div className={timeStatus + " daylist"} >
+                <Hours key={result.rawData.id}  hours={hours} additionalHoursText={additionalHoursText} /></div>
             </div>
+
+          </div>
+        </div>
+        </div>
             {/* <div> */}
               {/* <div style={{marginLeft:"30px"}}><h2>Services</h2> */}
             {/* <div>
