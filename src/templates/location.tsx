@@ -510,7 +510,7 @@ const Location: Template<ExternalApiRenderData> = ({
           <Header _site={_site} />
           {/* <Banner/> */}
 
-          <PhotoSlider c_banner={c_banner} />
+          <PhotoSlider _site={_site} />
           <BreadCrumbs
             name={name}
             parents={dm_directoryParents}

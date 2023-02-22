@@ -35,6 +35,7 @@ const renderPrettyAddress = (address?: Address) => {
 
 const Banner = (props: Banner) => {
   const { name, address, clickcollect, c_bannerImage,c_locatorBannerAdditionalText, children } = props;
+  console.log(name,"name")
   
 
   return (

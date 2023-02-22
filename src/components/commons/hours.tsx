@@ -329,7 +329,7 @@ const DayRow = (props: DayRow) => {
                   return (
                     <>
                       {openint.isClosed ? (
-                        <div className="time-group" key={index}>
+                        <div className="time-group ml-4" key={index}>
                           <span className="time-b closeddot">Closed</span>
                         </div>
                       ) : (

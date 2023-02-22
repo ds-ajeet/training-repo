@@ -115,16 +115,16 @@ function opentime(e: any) {
             <div className="OpenCloseStatus ">
               <div className="hours-labels">
                 <span className="icon"></span>
-                <button><div className="flex" onClick={onOpenHide}>
+                <div className="flex" >
                  <OpenClose
                     timezone={timezone}
                     hours={hours}
                     deliveryHours={hours}
                   ></OpenClose>
-                 <svg className="openclose" xmlns="http://www.w3.org/2000/svg" width="19.585" height="7.793" viewBox="0 0 9.585 4.793">
+                <button> <svg onClick={onOpenHide} className="openclose" xmlns="http://www.w3.org/2000/svg" width="19.585" height="7.793" viewBox="0 0 9.585 4.793">
                   <path id="hrd-drop" d="M9,13.5l4.793,4.793L18.585,13.5Z" transform="translate(-9 -13.5)" fill="#02a6db"></path>
-                 </svg>
-                 </div></button>
+                 </svg></button>
+                 </div>
 
               </div>
               <div className={timeStatus + " daylist"} >
