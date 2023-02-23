@@ -12,7 +12,7 @@ import {
   useComposedCssClasses,
 } from "../../hooks/useComposedCssClasses";
 import Mapicon2 from "../../images/MGMpin.svg";
-import clustericon from "../../images/cluster.png";
+import clustericon from "../../images/cluster-blue.svg";
 import mapimage from "../../images/map.svg";
 import timesvg from "../../images/watch-icn.svg";
 import Hovermap from "../../images/MGMhover1.svg";
@@ -255,6 +255,8 @@ function UnwrappedGoogleMaps({
             label: {
               text: String(markers?.length),
               color: "white",
+              fontWeight:"bold",
+              fontSize:"20px",
             },
             //  animation: google.maps.Animation.DROP,
           });
