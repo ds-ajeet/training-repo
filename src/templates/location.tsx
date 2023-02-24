@@ -592,6 +592,15 @@ const Location: Template<ExternalApiRenderData> = ({
             </div>
           </div>
 
+          <div>
+       
+       {c_faq ? <div className="w-full  pt-4">
+           <h4 className="sec_heading  text-[30px] text-center pt-4">How can we help ?</h4>
+           { <Faq prop={c_faq} c_fAQsCta={document.c_fAQsCta}/> }
+         </div> : <></>}
+
+         </div>
+
           <div className="nearby-sec">
             <div className="container">
               <div className="sec-title">
@@ -613,7 +622,7 @@ const Location: Template<ExternalApiRenderData> = ({
         </AnalyticsScopeProvider>
       </AnalyticsProvider>
       <div>
-        <Faq faqs={c_faq} />
+        {/* <Faq faqs={c_faq} /> */}
       </div>
 
       {/* <About /> */}
