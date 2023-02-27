@@ -34,15 +34,12 @@ const options = {
     <>
 
       <Splide aria-label="Photo Slider" options={options}>
-
-
         {photos}
       </Splide>
 
     </>
   );
 };
-
 export default PhotoSlider;
 
 

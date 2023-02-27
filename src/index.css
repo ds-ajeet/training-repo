@@ -723,7 +723,7 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
  
 }
 .countact{
-  padding-top: 20%;
+  padding-top: 5%;
   color: white;
 }
 .countact a:hover{
@@ -769,8 +769,8 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   color: #fff;
   border-radius: 1px;
 }
-.containerr{
-  max-width: 1280px;
+.container{
+  max-width: 1320px;
 }
 .containerr img{
   display: block;
@@ -874,7 +874,7 @@ button {
   width: 750px;
   height: 80px;
   padding: 15px;
-  margin-left: 150px;
+  margin-left: 90px;
   background-color: #02a6db;
   border-radius: 10px;
   transform: scale(0.6);
@@ -1090,3 +1090,7 @@ transition: 0.5s ease all;
   color: #02a6db;
 }
 /*faq end*/
+.grid.grid-cols-3.pt-4 {
+  display: flex;
+  gap: 10px;
+}

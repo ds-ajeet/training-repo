@@ -162,7 +162,7 @@
 import * as React from "react";
 import SubscribeForm from "../commons/Newsletter";
 import { emails_icn } from "../../../sites-global/global";
-
+import footerLOgo from "../../images/mgmtimber_logo_footer.svg";
 const Footer = (props: any) => {
   const Aboutm = props?._site?.c_aboutMgm?.headingLink?.map((link: any) => (
     <a className="navbar-item" href="#">
@@ -184,6 +184,16 @@ const Footer = (props: any) => {
       <br />
     </a>
   ));
+  // const footerCta = props?._site?.c_footerCta?.map((link: any) => (
+  //   <div className="flex">
+  //     <img src={link.headermenu.url} width="20" height="5"/>  
+  //   <a  className="navbar-item" href={link?.headermenus?.link} style={{marginTop:"5px"}}>
+      
+  //     <span style={{marginLeft:"4px",marginRight:"25px"}}>{link?.headermenus?.label}</span>
+      
+  //   </a>
+  //   </div>
+  // ));
   return (
     <>
       <footer
@@ -193,12 +203,17 @@ const Footer = (props: any) => {
         <div className="container">
           <div className="store-locator">
             <div className="company-logo">
-              <img src={props._site.c_mgmTimberLogo.url} alt="logo" width="150"/>
+              {/* <img src={props._site.c_mgmTimberLogo.url} alt="logo" width="150"/> */}
+              <img src={footerLOgo} />
+
             </div>
             <div className="countact grid grid-cols-2">{countact}</div>
           </div>
           <div style={{ color: "#fff" }}>
+            
             <h2>{props._site?.c_customer_Services.headerLinkHeading}</h2>
+            
+              {/* {Headercountact} */}
             <ul className="pt-4">
               <li className="pt-4">
                 <a href="#" title="">
@@ -280,6 +295,7 @@ const Footer = (props: any) => {
                 <a href="#">{props._site.c_cookiePolicy.label}</a>
                 <a href="#">{props._site.c_privacyPolicy.label}</a>
                 <a href="#">{props._site.c_termAndConditioon.label}</a>
+                
               </div>
               <div className="paymentImg">
                 <img src={props._site.c_payment.url} alt="logo" width="400"/>
