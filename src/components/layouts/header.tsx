@@ -2,6 +2,7 @@ import * as React from "react";
 import logo from "../../images/mgmlogo.jpg";
 import SearchBar from "../locationDetail/search";
 import FilterSearch from "../locatorPage/FilterSearch";
+import { StaticData } from "../../../sites-global/staticData";
 
 const Header = (props: any) => {
   // console.log(props)
@@ -33,12 +34,15 @@ const Header = (props: any) => {
 
   return (
     <>   
-    <div style={{height:"33px" ,width:"300px",marginLeft:"900px"}} className="grid grid-cols-3 pt-4">
+    <div style={{height:"37px" ,width:"430px",marginLeft:"900px"}} className="grid grid-cols-3 pt-4">
         <a href="#"><h3 style={{fontWeight:"bold",fontSize:"17px"}}>{props._site.c_trustpilot.label}</h3></a>
         <a href="#"><img src={props._site.c_trustpilot.link} width="130" /></a>
       
+        <a href="#"><img src={props._site.c_trust.url} width="100" alt="logo"/> </a>
         
-        <a href="#"><img src={props._site.c_trust.url} width="90" alt="logo"/> </a>
+        <span className="pt-2">{StaticData.Vat}</span>
+        <span className="pt-2">{StaticData.Inc}</span>
+        {/* <span>{StaticData.Ex}</span> */}
         {/* <div><span style={{color:"rgba(0,0,0,.6)",fontSize:"12px"}}>VAT:</span>
         <span className="price-including-tax vat" style={{fontWeight:"bold"}}>Inc</span></div> */}
         </div>
@@ -59,6 +63,7 @@ const Header = (props: any) => {
           <div className="logo w-auto">
           {/* <img src={props._site.c_trust.url} width="90" alt="logo" style={{marginLeft:"10s00px"}}/>  */}
               <a href="#"><img src={props._site.c_mgmTimberLogo.url} width="150" alt="logo"/></a>
+              
              
           </div>
          

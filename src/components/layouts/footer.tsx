@@ -178,22 +178,22 @@ const Footer = (props: any) => {
       </a>
     )
   );
-  const countact = props?._site?.c_countact?.map((link: any) => (
-    <a className="navbar-item pt-4" href="#">
-      <span>{link.label}</span>
-      <br />
-    </a>
-  ));
-  // const footerCta = props?._site?.c_footerCta?.map((link: any) => (
-  //   <div className="flex">
-  //     <img src={link.headermenu.url} width="20" height="5"/>  
-  //   <a  className="navbar-item" href={link?.headermenus?.link} style={{marginTop:"5px"}}>
-      
-  //     <span style={{marginLeft:"4px",marginRight:"25px"}}>{link?.headermenus?.label}</span>
-      
+  // const countact = props?._site?.c_countact?.map((link: any) => (
+  //   <a className="navbar-item pt-4" href="#">
+  //     <span>{link.label}</span>
+  //     <br />
   //   </a>
-  //   </div>
   // ));
+  const countact = props?._site?.c_footerCta?.map((link: any) => (
+    <div className="flex">
+      <img src={link.headermenu.url} width="20" />  
+    <a  className="navbar-item" href={link?.headermenus?.link} style={{marginTop:"5px"}}>
+      
+      <span style={{marginLeft:"10px",marginRight:"20px"}}>{link?.headermenus?.label}</span>
+      
+    </a>
+    </div>
+  ));
   return (
     <>
       <footer
@@ -207,7 +207,7 @@ const Footer = (props: any) => {
               <img src={footerLOgo} />
 
             </div>
-            <div className="countact grid grid-cols-2">{countact}</div>
+            <div className="countact grid grid-cols-2 gap-x-4 gap-y-5">{countact}</div>
           </div>
           <div style={{ color: "#fff" }}>
             
@@ -272,7 +272,7 @@ const Footer = (props: any) => {
                     <>
                       <a href="#">
                         <img
-                          style={{ width: "30px", height: "25px" }}
+                          style={{ width: "30px", height: "28px" }}
                           src={res.icon.url}
                         />
                       </a>
@@ -298,7 +298,7 @@ const Footer = (props: any) => {
                 
               </div>
               <div className="paymentImg">
-                <img src={props._site.c_payment.url} alt="logo" width="400"/>
+                <img src={props._site.c_payment.url} alt="logo" width="360"/>
               </div>
             </div>
 

@@ -105,9 +105,9 @@
 		"c_footerCta": [
 			{
 				"headermenu": {
-					"height": 1144,
-					"url": "https://a.mktgcdn.com/p-sandbox/3ZvPR2ODGvuSdBH3mrJrHCmNDJuiZPpF5hK0lQoudk8/1145x1144.png",
-					"width": 1145
+					"height": 28,
+					"url": "https://a.mktgcdn.com/p-sandbox/M0Lva0v9bl2ICO76fzQdu5bRKbaqPM0xaFXpF5JIfJ0/28x28.png",
+					"width": 28
 				},
 				"headermenus": {
 					"label": "Contact Us",
@@ -117,9 +117,9 @@
 			},
 			{
 				"headermenu": {
-					"height": 256,
-					"url": "https://a.mktgcdn.com/p-sandbox/U1wPKCMBs9gXvt-ErvjI5NlwHAeEOg9sCsVDr3vCi7M/256x256.jpg",
-					"width": 256
+					"height": 28,
+					"url": "https://a.mktgcdn.com/p-sandbox/t05VRl09ME82DwTw4Mog9OfCQ-6UsXmrmB9YuMfM2Mk/28x28.png",
+					"width": 28
 				},
 				"headermenus": {
 					"label": "Get a Quote",
@@ -129,12 +129,12 @@
 			},
 			{
 				"headermenu": {
-					"height": 180,
-					"url": "https://a.mktgcdn.com/p-sandbox/BMayLGl2HStjh1Lzs3nZ6b0ilfYo8N07bG9nh5M2Su0/317x180.jpg",
-					"width": 317
+					"height": 28,
+					"url": "https://a.mktgcdn.com/p-sandbox/MUuOXRKPpu_5wPLG-tHptDvSefCGoLF70Nci7b7AGkU/28x28.png",
+					"width": 28
 				},
 				"headermenus": {
-					"label": "Get a Quote",
+					"label": "Location",
 					"link": "#",
 					"linkType": "OTHER"
 				}
@@ -281,7 +281,9 @@
 		"c_socialIcons": [
 			{
 				"cTA": {
-					"label": "Facebook"
+					"label": "Facebook",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
 					"height": 512,
@@ -291,7 +293,9 @@
 			},
 			{
 				"cTA": {
-					"label": "Twitter"
+					"label": "Twitter",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
 					"height": 1600,
@@ -301,27 +305,33 @@
 			},
 			{
 				"cTA": {
-					"label": "Linkdin"
+					"label": "Linkdin",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
-					"height": 512,
-					"url": "https://a.mktgcdn.com/p-sandbox/jXQ_D8HmptTAx-YRS5HoTTQj5naKdgKVV6vZVZ3s34s/512x512.png",
-					"width": 512
+					"height": 218,
+					"url": "https://a.mktgcdn.com/p-sandbox/kTgMDPR9cAoVwtAMay2V0kxJ_ZVdgGnmB5RT1tESp3Q/217x218.jpg",
+					"width": 217
 				}
 			},
 			{
 				"cTA": {
-					"label": "Youtube"
+					"label": "Youtube",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
-					"height": 631,
-					"url": "https://a.mktgcdn.com/p-sandbox/Z_2AcaUOPqFIdMw2N1RL3VYceZgJmRff-HYCEtSF2sA/840x631.jpg",
-					"width": 840
+					"height": 190,
+					"url": "https://a.mktgcdn.com/p-sandbox/iLz9neZYN8rq3CivZm6QqGPQS0QNbf405T27jxpJL-I/293x190.jpg",
+					"width": 293
 				}
 			},
 			{
 				"cTA": {
-					"label": "Instagram"
+					"label": "Instagram",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
 					"height": 1600,
@@ -331,11 +341,13 @@
 			},
 			{
 				"cTA": {
-					"label": "Pinterest"
+					"label": "Pinterest",
+					"link": "#",
+					"linkType": "OTHER"
 				},
 				"icon": {
-					"height": 728,
-					"url": "https://a.mktgcdn.com/p-sandbox/CvXkvlKaLXGmyUgvW3zFVtXCc3n1_TbZsVoUNYRGuHo/980x728.jpg",
+					"height": 980,
+					"url": "https://a.mktgcdn.com/p-sandbox/IsVUT0hpqgtURG6N-KlivPqVbM6yqzN2EYoYKgZl98E/980x980.png",
 					"width": 980
 				}
 			}

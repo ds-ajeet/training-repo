@@ -4,6 +4,7 @@ import GetDirection from "../components/commons/GetDirection";
 import constant from "../constant";
 import Header from "../components/layouts/header";
 import Footer from "../components/layouts/footer";
+import PhotoSlider from "../components/locationDetail/PhotoSlider";
 // import { stagingBaseUrl } from "../constants";
 // import bannerImage from "../images/banner.png"
 import "../index.css";
@@ -458,7 +459,7 @@ const City: Template<TemplateRenderProps> = ({
         }}
       />
       <Header _site={_site}/>
-      <Banner/>
+      <PhotoSlider _site={_site} />
       <PageLayout global={_site}>
         <BreadCrumbs
           name={name}
