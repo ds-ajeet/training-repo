@@ -820,20 +820,21 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   padding-top: 15px;
   text-align: center;
 }
-.navbar-item:hover {
+/* .navbar-item:hover {
   background-color: black;
   color: #fff;
-}
-/* .headerLink a:hover{ */
-  /* background-color: #000; */
+} */
+.headerLink a:hover{ 
+  background-color: black;
+  color: #fff;
  
-/* } */
+}
 .visitButton:hover{
   background-color: rgb(1 113 149 / var(--tw-bg-opacity));
 }
-/* .navbar-item:hover{
+.navbar-item:hover{
   color: #63aaec;
-} */
+}
 .location-with-filter{
   height: 50px;
   background-color: #02a6db;

@@ -47,7 +47,7 @@ const Header = (props: any) => {
         
     
       <div
-        style={{ background: "white", height: "85px" }}
+        style={{ background: "white", height: "68px" }}
         id="header"
         className="header-nav"
       >
