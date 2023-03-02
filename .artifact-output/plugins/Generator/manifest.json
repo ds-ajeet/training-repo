@@ -1,12 +1,12 @@
 {
   "bundlePaths": {
-    "404": "assets/server/404.4717231f.js",
-    "city": "assets/server/city.7468f091.js",
-    "country": "assets/server/country.e609c47e.js",
-    "location": "assets/server/location.3729d663.js",
-    "locator": "assets/server/locator.ec3a0778.js",
+    "404": "assets/server/404.75e86541.js",
+    "city": "assets/server/city.fbb2b499.js",
+    "country": "assets/server/country.119425b0.js",
+    "location": "assets/server/location.f93abacd.js",
+    "locator": "assets/server/locator.78ea5a47.js",
     "robots": "assets/server/robots.658ae8fb.js",
-    "State": "assets/server/State.02dc8613.js"
+    "State": "assets/server/State.65aa0879.js"
   },
   "projectFilepaths": {
     "templatesRoot": "src/templates",
@@ -29,6 +29,10 @@
       "file": "assets/static/mgmtimber_logo_footer-e9f6cd78.svg",
       "src": "src/images/mgmtimber_logo_footer.svg"
     },
+    "src/images/MGM_About_Us_Image.webp": {
+      "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
+      "src": "src/images/MGM_About_Us_Image.webp"
+    },
     "src/images/map.svg": {
       "file": "assets/static/map-05379a2e.svg",
       "src": "src/images/map.svg"
@@ -41,36 +45,12 @@
       "file": "assets/static/MGMpin-0521d029.svg",
       "src": "src/images/MGMpin.svg"
     },
-    "src/images/MGM_About_Us_Image.webp": {
-      "file": "assets/static/MGM_About_Us_Image-a59243fd.webp",
-      "src": "src/images/MGM_About_Us_Image.webp"
-    },
-    "src/images/dots.svg": {
-      "file": "assets/static/dots-c532748f.svg",
-      "src": "src/images/dots.svg"
-    },
-    "src/images/plus-sym.svg": {
-      "file": "assets/static/plus-sym-e2bf518e.svg",
-      "src": "src/images/plus-sym.svg"
-    },
-    "src/images/minus-sym.svg": {
-      "file": "assets/static/minus-sym-f0f517fd.svg",
-      "src": "src/images/minus-sym.svg"
-    },
-    "src/images/shape-t.svg": {
-      "file": "assets/static/shape-t-4e865b2a.svg",
-      "src": "src/images/shape-t.svg"
-    },
-    "src/images/shape-b.svg": {
-      "file": "assets/static/shape-b-bdecdd2a.svg",
-      "src": "src/images/shape-b.svg"
-    },
     "src/images/red-map.svg": {
       "file": "assets/static/red-map-55834b8a.svg",
       "src": "src/images/red-map.svg"
     },
     "src/images/cluster-blue.svg": {
-      "file": "assets/static/cluster-blue-a62e6d3f.svg",
+      "file": "assets/static/cluster-blue-9a676ba3.svg",
       "src": "src/images/cluster-blue.svg"
     },
     "src/images/map-center.svg": {
@@ -81,164 +61,183 @@
       "file": "assets/static/MGMhover1-bbbef0ea.svg",
       "src": "src/images/MGMhover1.svg"
     },
+    "src/images/minus-sym.svg": {
+      "file": "assets/static/minus-sym-f0f517fd.svg",
+      "src": "src/images/minus-sym.svg"
+    },
+    "src/images/plus-sym.svg": {
+      "file": "assets/static/plus-sym-e2bf518e.svg",
+      "src": "src/images/plus-sym.svg"
+    },
+    "src/images/dots.svg": {
+      "file": "assets/static/dots-c532748f.svg",
+      "src": "src/images/dots.svg"
+    },
+    "src/images/shape-t.svg": {
+      "file": "assets/static/shape-t-4e865b2a.svg",
+      "src": "src/images/shape-t.svg"
+    },
+    "src/images/shape-b.svg": {
+      "file": "assets/static/shape-b-bdecdd2a.svg",
+      "src": "src/images/shape-b.svg"
+    },
     "src/images/newsletter-bg.png": {
       "file": "assets/static/newsletter-bg-6b390772.png",
       "src": "src/images/newsletter-bg.png"
     },
     "dist/hydration_templates/404.tsx": {
-      "file": "assets/hydrate/404.1403119d.js",
+      "file": "assets/hydrate/404.47786589.js",
       "src": "dist/hydration_templates/404.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/404.tsx",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js",
         "_global-e71fdf5a.js",
-        "_PageLayout-4c06f15b.js"
+        "_PageLayout-bba2baf1.js"
       ]
     },
     "src/templates/404.tsx": {
-      "file": "assets/server/404.4717231f.js",
+      "file": "assets/server/404.75e86541.js",
       "src": "src/templates/404.tsx",
       "isEntry": true,
       "imports": [
         "_global-e71fdf5a.js",
-        "_jsx-runtime-3acbe3a0.js",
-        "_PageLayout-4c06f15b.js",
+        "_jsx-runtime-442449da.js",
+        "_PageLayout-bba2baf1.js",
         "_index-3fef7104.js"
       ]
     },
     "dist/hydration_templates/city.tsx": {
-      "file": "assets/hydrate/city.fab706c6.js",
+      "file": "assets/hydrate/city.e18630d7.js",
       "src": "dist/hydration_templates/city.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/city.tsx",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js",
-        "_Address-10d0404b.js",
-        "_openClose-44618862.js",
+        "_Address-79860776.js",
+        "_openClose-721df30d.js",
         "_global-e71fdf5a.js",
-        "_Breadcrumb-9f00127b.js",
-        "_banner-2b99de82.js",
-        "_PageLayout-4c06f15b.js"
+        "_PhotoSlider-edb91c51.js",
+        "_Breadcrumb-c0219d0a.js",
+        "_PageLayout-bba2baf1.js"
       ]
     },
     "src/templates/city.tsx": {
-      "file": "assets/server/city.7468f091.js",
+      "file": "assets/server/city.fbb2b499.js",
       "src": "src/templates/city.tsx",
       "isEntry": true,
       "imports": [
-        "_Address-10d0404b.js",
-        "_openClose-44618862.js",
-        "_Breadcrumb-9f00127b.js",
-        "_banner-2b99de82.js",
-        "_jsx-runtime-3acbe3a0.js",
+        "_Address-79860776.js",
+        "_openClose-721df30d.js",
+        "_PhotoSlider-edb91c51.js",
+        "_Breadcrumb-c0219d0a.js",
+        "_jsx-runtime-442449da.js",
         "_global-e71fdf5a.js",
-        "_PageLayout-4c06f15b.js",
+        "_PageLayout-bba2baf1.js",
         "_index-3fef7104.js"
       ]
     },
     "dist/hydration_templates/country.tsx": {
-      "file": "assets/hydrate/country.3d050d73.js",
+      "file": "assets/hydrate/country.ed2aa14f.js",
       "src": "dist/hydration_templates/country.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/country.tsx",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js",
-        "_openClose-44618862.js",
+        "_openClose-721df30d.js",
         "_global-e71fdf5a.js",
-        "_Breadcrumb-9f00127b.js",
-        "_banner-2b99de82.js",
-        "_PageLayout-4c06f15b.js"
+        "_Breadcrumb-c0219d0a.js",
+        "_banner-42dca098.js",
+        "_PageLayout-bba2baf1.js"
       ]
     },
     "src/templates/country.tsx": {
-      "file": "assets/server/country.e609c47e.js",
+      "file": "assets/server/country.119425b0.js",
       "src": "src/templates/country.tsx",
       "isEntry": true,
       "imports": [
-        "_openClose-44618862.js",
-        "_Breadcrumb-9f00127b.js",
-        "_banner-2b99de82.js",
-        "_jsx-runtime-3acbe3a0.js",
-        "_PageLayout-4c06f15b.js",
+        "_openClose-721df30d.js",
+        "_Breadcrumb-c0219d0a.js",
+        "_banner-42dca098.js",
+        "_jsx-runtime-442449da.js",
+        "_PageLayout-bba2baf1.js",
         "_global-e71fdf5a.js",
         "_index-3fef7104.js"
       ]
     },
     "dist/hydration_templates/location.tsx": {
-      "file": "assets/hydrate/location.5521568b.js",
+      "file": "assets/hydrate/location.09a1fe4d.js",
       "src": "dist/hydration_templates/location.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/location.tsx",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js",
-        "_answersHeadlessConfig-5633db72.js",
-        "_openClose-44618862.js",
+        "_answersHeadlessConfig-f788e82e.js",
+        "_openClose-721df30d.js",
         "_global-e71fdf5a.js",
-        "_Address-10d0404b.js",
+        "_Address-79860776.js",
         "_preload-helper-094304c8.js",
-        "_Breadcrumb-9f00127b.js"
+        "_PhotoSlider-edb91c51.js",
+        "_Breadcrumb-c0219d0a.js"
       ]
     },
     "src/templates/location.tsx": {
-      "file": "assets/server/location.3729d663.js",
+      "file": "assets/server/location.f93abacd.js",
       "src": "src/templates/location.tsx",
       "isEntry": true,
       "imports": [
-        "_answersHeadlessConfig-5633db72.js",
-        "_Address-10d0404b.js",
-        "_jsx-runtime-3acbe3a0.js",
+        "_answersHeadlessConfig-f788e82e.js",
+        "_Address-79860776.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js",
         "_index-93eca02a.js",
         "_global-e71fdf5a.js",
-        "_openClose-44618862.js",
+        "_openClose-721df30d.js",
         "_preload-helper-094304c8.js",
-        "_Breadcrumb-9f00127b.js"
+        "_PhotoSlider-edb91c51.js",
+        "_Breadcrumb-c0219d0a.js"
       ],
       "dynamicImports": [
-        "_openClose-44618862.js"
-      ],
-      "css": [
-        "assets/static/location-55d13414.css"
+        "_openClose-721df30d.js"
       ],
       "assets": [
         "assets/static/map-05379a2e.svg"
       ]
     },
     "dist/hydration_templates/locator.tsx": {
-      "file": "assets/hydrate/locator.f66f3eea.js",
+      "file": "assets/hydrate/locator.70995a22.js",
       "src": "dist/hydration_templates/locator.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/locator.tsx",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js",
-        "_openClose-44618862.js",
+        "_openClose-721df30d.js",
         "_global-e71fdf5a.js",
-        "_Address-10d0404b.js",
-        "_answersHeadlessConfig-5633db72.js",
+        "_Address-79860776.js",
+        "_answersHeadlessConfig-f788e82e.js",
         "_server.browser-ba80ba4b.js"
       ]
     },
     "src/templates/locator.tsx": {
-      "file": "assets/server/locator.ec3a0778.js",
+      "file": "assets/server/locator.78ea5a47.js",
       "src": "src/templates/locator.tsx",
       "isEntry": true,
       "imports": [
-        "_openClose-44618862.js",
+        "_openClose-721df30d.js",
         "_index-3fef7104.js",
-        "_jsx-runtime-3acbe3a0.js",
-        "_Address-10d0404b.js",
-        "_answersHeadlessConfig-5633db72.js",
+        "_jsx-runtime-442449da.js",
+        "_Address-79860776.js",
+        "_answersHeadlessConfig-f788e82e.js",
         "_server.browser-ba80ba4b.js",
         "_global-e71fdf5a.js"
       ],
@@ -247,7 +246,7 @@
       ],
       "assets": [
         "assets/static/red-map-55834b8a.svg",
-        "assets/static/cluster-blue-a62e6d3f.svg",
+        "assets/static/cluster-blue-9a676ba3.svg",
         "assets/static/MGMhover1-bbbef0ea.svg",
         "assets/static/map-center-262cd830.svg"
       ]
@@ -261,30 +260,30 @@
       ]
     },
     "dist/hydration_templates/State.tsx": {
-      "file": "assets/hydrate/State.bbb9e8e2.js",
+      "file": "assets/hydrate/State.f95cf859.js",
       "src": "dist/hydration_templates/State.tsx",
       "isEntry": true,
       "imports": [
         "_index-93eca02a.js",
         "src/templates/State.tsx",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js",
-        "_openClose-44618862.js",
+        "_openClose-721df30d.js",
         "_global-e71fdf5a.js",
-        "_Breadcrumb-9f00127b.js",
-        "_banner-2b99de82.js"
+        "_Breadcrumb-c0219d0a.js",
+        "_banner-42dca098.js"
       ]
     },
     "src/templates/State.tsx": {
-      "file": "assets/server/State.02dc8613.js",
+      "file": "assets/server/State.65aa0879.js",
       "src": "src/templates/State.tsx",
       "isEntry": true,
       "imports": [
-        "_openClose-44618862.js",
-        "_Breadcrumb-9f00127b.js",
-        "_banner-2b99de82.js",
+        "_openClose-721df30d.js",
+        "_Breadcrumb-c0219d0a.js",
+        "_banner-42dca098.js",
         "_global-e71fdf5a.js",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_index-3fef7104.js"
       ]
     },
@@ -306,8 +305,8 @@
         "_index-3fef7104.js"
       ]
     },
-    "_jsx-runtime-3acbe3a0.js": {
-      "file": "assets/static/jsx-runtime-3acbe3a0.js",
+    "_jsx-runtime-442449da.js": {
+      "file": "assets/static/jsx-runtime-442449da.js",
       "imports": [
         "_index-3fef7104.js"
       ]
@@ -315,31 +314,31 @@
     "_global-e71fdf5a.js": {
       "file": "assets/static/global-e71fdf5a.js"
     },
-    "_PageLayout-4c06f15b.js": {
-      "file": "assets/static/PageLayout-4c06f15b.js",
+    "_PageLayout-bba2baf1.js": {
+      "file": "assets/static/PageLayout-bba2baf1.js",
       "imports": [
-        "_jsx-runtime-3acbe3a0.js"
+        "_jsx-runtime-442449da.js"
       ]
     },
-    "_Address-10d0404b.js": {
-      "file": "assets/static/Address-10d0404b.js",
+    "_Address-79860776.js": {
+      "file": "assets/static/Address-79860776.js",
       "imports": [
         "_index-3fef7104.js",
-        "_jsx-runtime-3acbe3a0.js",
-        "_openClose-44618862.js",
+        "_jsx-runtime-442449da.js",
+        "_openClose-721df30d.js",
         "_global-e71fdf5a.js"
       ]
     },
-    "_openClose-44618862.js": {
-      "file": "assets/static/openClose-44618862.js",
+    "_openClose-721df30d.js": {
+      "file": "assets/static/openClose-721df30d.js",
       "isDynamicEntry": true,
       "imports": [
         "_index-3fef7104.js",
-        "_jsx-runtime-3acbe3a0.js",
+        "_jsx-runtime-442449da.js",
         "_global-e71fdf5a.js"
       ],
       "css": [
-        "assets/static/openClose-104d36fb.css"
+        "assets/static/openClose-e36df747.css"
       ],
       "assets": [
         "assets/static/mgmtimber_logo_footer-e9f6cd78.svg",
@@ -351,47 +350,57 @@
         "assets/static/shape-b-bdecdd2a.svg"
       ]
     },
-    "_Breadcrumb-9f00127b.js": {
-      "file": "assets/static/Breadcrumb-9f00127b.js",
+    "_PhotoSlider-edb91c51.js": {
+      "file": "assets/static/PhotoSlider-edb91c51.js",
+      "imports": [
+        "_index-3fef7104.js",
+        "_jsx-runtime-442449da.js"
+      ],
+      "css": [
+        "assets/static/PhotoSlider-55d13414.css"
+      ]
+    },
+    "_Breadcrumb-c0219d0a.js": {
+      "file": "assets/static/Breadcrumb-c0219d0a.js",
       "imports": [
         "_index-3fef7104.js",
         "_global-e71fdf5a.js",
-        "_jsx-runtime-3acbe3a0.js",
-        "_openClose-44618862.js"
+        "_jsx-runtime-442449da.js",
+        "_openClose-721df30d.js"
       ]
     },
-    "_banner-2b99de82.js": {
-      "file": "assets/static/banner-2b99de82.js",
+    "_banner-42dca098.js": {
+      "file": "assets/static/banner-42dca098.js",
       "imports": [
-        "_openClose-44618862.js",
-        "_jsx-runtime-3acbe3a0.js"
+        "_openClose-721df30d.js",
+        "_jsx-runtime-442449da.js"
       ],
       "assets": [
         "assets/static/MGM_About_Us_Image-a59243fd.webp"
       ]
     },
-    "_answersHeadlessConfig-5633db72.js": {
-      "file": "assets/static/answersHeadlessConfig-5633db72.js",
+    "_answersHeadlessConfig-f788e82e.js": {
+      "file": "assets/static/answersHeadlessConfig-f788e82e.js",
       "imports": [
         "_index-3fef7104.js",
-        "_openClose-44618862.js",
-        "_jsx-runtime-3acbe3a0.js"
+        "_openClose-721df30d.js",
+        "_jsx-runtime-442449da.js"
       ],
       "assets": [
         "assets/static/phone-057118a0.svg",
         "assets/static/MGMpin-0521d029.svg"
       ]
     },
-    "src/templates/location.css": {
-      "file": "assets/static/location-55d13414.css",
-      "src": "src/templates/location.css"
+    "PhotoSlider.css": {
+      "file": "assets/static/PhotoSlider-55d13414.css",
+      "src": "PhotoSlider.css"
     },
     "src/templates/locator.css": {
       "file": "assets/static/locator-7e1d7cb8.css",
       "src": "src/templates/locator.css"
     },
     "openClose.css": {
-      "file": "assets/static/openClose-104d36fb.css",
+      "file": "assets/static/openClose-e36df747.css",
       "src": "openClose.css"
     }
   }

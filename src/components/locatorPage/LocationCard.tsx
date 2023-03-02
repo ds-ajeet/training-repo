@@ -11,6 +11,7 @@ import { StaticData } from "../../../sites-global/staticData";
 import { Link } from "@yext/pages/components";
 import Hours from "../commons/hours";
 import {Openclose,mobilesvg,View_Store } from "../../../sites-global/global";
+import Phonesvg from "../../images/phone.svg";
 
 
 const metersToMiles = (meters: number) => {
@@ -105,9 +106,9 @@ function opentime(e: any) {
               <Address address={address} />
               
               <div className="pt-2">
-              <label>Telephone&nbsp;&nbsp;<a href={`tel:${result.rawData.mainPhone}`} style={{color:"#0067c8"}}>{result.rawData.mainPhone}</a></label>
+              <label>Telephone&nbsp;&nbsp;<Link href={`tel:${result.rawData.mainPhone}`} style={{color:"#0067c8"}}>{result.rawData.mainPhone}</Link></label>
               <br/><label>Email
-              &nbsp;<a href="#" style={{color:"#0067c8"}}>{result.rawData.emails}</a></label>
+              &nbsp;<Link href="#" style={{color:"#0067c8"}}>{result.rawData.emails}</Link></label>
               </div>
               <div className="open-close ">
                 <h5 className="openHourse">Opening Hours</h5>

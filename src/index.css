@@ -809,27 +809,31 @@ nav[aria-label="Pagination"] button:disabled{@apply cursor-not-allowed text-opac
   
 }
 .headerLink{
-  margin-left: 15px;
+  margin: 20px;
   /* padding-top: 10px; */
 }
 .headerLink a {
   color: inherit;
   text-decoration: inherit;
   height: 70px;
-  width: auto;
+  width: 135px;
   padding-top: 15px;
+  text-align: center;
 }
-
-.headerLink a:hover{
-  /* background-color: #000; */
+.navbar-item:hover {
+  background-color: black;
   color: #fff;
 }
+/* .headerLink a:hover{ */
+  /* background-color: #000; */
+ 
+/* } */
 .visitButton:hover{
   background-color: rgb(1 113 149 / var(--tw-bg-opacity));
 }
-.navbar-item:hover{
+/* .navbar-item:hover{
   color: #63aaec;
-}
+} */
 .location-with-filter{
   height: 50px;
   background-color: #02a6db;

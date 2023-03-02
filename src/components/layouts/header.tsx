@@ -86,11 +86,11 @@ const Header = (props: any) => {
       </div>
       <div className="">
         <div
-          style={{ background: "#02a6db", height: "70px" }}
+          style={{ background: "#02a6db", height: "70px",fontSize:"initial" }}
           className="text-black w-full font-bold"
         >
           <div
-            className="flex gap-x-16 text-ml headerLink"
+            className="flex gap-x-4 text-ml headerLink"
           >
             {linkDoms}
           </div>
