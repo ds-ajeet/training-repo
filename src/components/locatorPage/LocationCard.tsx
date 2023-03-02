@@ -105,7 +105,7 @@ function opentime(e: any) {
               <Address address={address} />
               
               <div className="pt-2">
-              <label>Telephone&nbsp;&nbsp;<a href="#" style={{color:"#0067c8"}}>{result.rawData.mainPhone}</a></label>
+              <label>Telephone&nbsp;&nbsp;<a href={`tel:${result.rawData.mainPhone}`} style={{color:"#0067c8"}}>{result.rawData.mainPhone}</a></label>
               <br/><label>Email
               &nbsp;<a href="#" style={{color:"#0067c8"}}>{result.rawData.emails}</a></label>
               </div>
