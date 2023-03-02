@@ -41,10 +41,8 @@ const Header = (props: any) => {
         <a href="#"><img src={props._site.c_trust.url} width="100" alt="logo"/> </a>
         
         <span className="pt-2">{StaticData.Vat}</span>
-        <span className="pt-2">{StaticData.Inc}</span>
+        <span className="pt-2 font-bold">{StaticData.Inc}</span>
         {/* <span>{StaticData.Ex}</span> */}
-        {/* <div><span style={{color:"rgba(0,0,0,.6)",fontSize:"12px"}}>VAT:</span>
-        <span className="price-including-tax vat" style={{fontWeight:"bold"}}>Inc</span></div> */}
         </div>
         
     

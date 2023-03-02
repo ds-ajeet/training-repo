@@ -49,7 +49,7 @@ const Contact = (props: any) => {
               <img className=" " src={Phonesvg} width="22" height="22" alt="phonesvg" />
             </div>
             <div className="content-col">
-              <a id="address" className=" location-phn" href={`tel:${phone}`}>
+              <a id="address" className="location-phn" href={`tel:${phone}`}>
                 {phone}
               </a>
             </div>
