@@ -99,18 +99,17 @@ const Header = (props: any) => {
           className="text-black w-full font-bold"
         >
           <div
-            className="flex gap-x-4 text-ml headerLink"
+            className="flex gap-x-6 text-ml headerLink"
           >
             {props?._site?.c_headerLinks?.map((link: any) => (
               <a
-                className="navbar-item"
+                className="navbar-itemm"
                 href="#"
               >
                 <span style={{ fontWeight: "bold" }}>{link.label}</span>
                 {/* <div className="navbar">
                   <div className="dropdown">
                     <button className="dropbtn">{link.label}
-                      <i className="fa fa-caret-down"></i>
                     </button>
                     <div className="dropdown-content">
 
@@ -121,10 +120,10 @@ const Header = (props: any) => {
                           <a href="#">Link 2</a>
                           <a href="#">Link 3</a>
                         </div>
-                      </div>
-                    </div>
-                  </div>
-                </div> */}
+                      </div> */}
+                    {/* </div> */}
+                  {/* </div> */}
+                {/* </div> */}
 
               </a>
 
