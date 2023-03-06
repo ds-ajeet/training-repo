@@ -274,7 +274,7 @@ const Footer = (props: any) => {
                         <img
                           style={{ width: "30px", height: "28px" }}
                           src={res.icon.url}
-                        />
+                        ></img>
                       </a>
                     </>
                   );
