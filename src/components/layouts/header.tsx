@@ -38,7 +38,7 @@ const Header = (props: any) => {
 
         <a href="#" className="pt-2"><h3 style={{ fontWeight: "bold", fontSize: "17px" }}>{props._site.c_trustpilot.label}</h3></a>
 
-        <a href="#" className="ml-2 pt-2"><img src={props._site.c_trustpilot.link} width="160" /></a>
+        <a href="#" className="ml-2 pt-2"><img src={props._site.c_trustpilot.link} width="160" alt=""/></a>
 
         <a href="#" className="ml-2 pt-2"><img src={props._site.c_trust.url} width="130" alt="logo" /> </a>
 
@@ -120,7 +120,9 @@ const Header = (props: any) => {
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3 className="text-black">{item.heading}</h3>
+                                      <h3 className="text-black">
+                                        {item.heading}
+                                        </h3>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
