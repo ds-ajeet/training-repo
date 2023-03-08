@@ -36,7 +36,7 @@ const Header = (props: any) => {
     <>
       <div style={{ height: "27px", width: "400px", marginLeft: "902px" }} className="flex">
 
-        <a href="#" className="pt-2"><h3 style={{ fontWeight: "bold", fontSize: "17px" }}>{props._site.c_trustpilot.label}</h3></a>
+        <a href="#" className="pt-2"><h4 style={{ fontWeight: "bold", fontSize: "17px" }}>{props._site.c_trustpilot.label}</h4></a>
 
         <a href="#" className="ml-2 pt-2"><img src={props._site.c_trustpilot.link} width="160" alt=""/></a>
 
@@ -120,9 +120,9 @@ const Header = (props: any) => {
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3>
+                                      <div className="">
                                         {item.heading}
-                                        </h3>
+                                        </div>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -139,7 +139,7 @@ const Header = (props: any) => {
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3>{item.heading}</h3>
+                                      <div className="">{item.heading}</div>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -156,7 +156,7 @@ const Header = (props: any) => {
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3>{item.heading}</h3>
+                                      <div className="">{item.heading}</div>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -173,7 +173,7 @@ const Header = (props: any) => {
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3>{item.heading}</h3>
+                                      <div className="">{item.heading}</div>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -190,7 +190,7 @@ const Header = (props: any) => {
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3>{item.heading}</h3>
+                                      <div className="">{item.heading}</div>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -207,7 +207,7 @@ const Header = (props: any) => {
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3>{item.heading}</h3>
+                                      <div className="">{item.heading}</div>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
