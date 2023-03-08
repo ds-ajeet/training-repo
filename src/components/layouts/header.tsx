@@ -23,7 +23,7 @@ const Header = (props: any) => {
 
   const Headercountact = props?._site?.c_headerMenus?.map((link: any) => (
     <div className="flex">
-      <img src={link.headermenu.url} width="30" />
+      <img src={link.headermenu.url} width="30"  alt=""/>
       <a className="navbar-item" href={link?.headermenus?.link} style={{ marginTop: "5px" }}>
 
         <span style={{ marginLeft: "10px", marginRight: "20px" }}>{link?.headermenus?.label}</span>
@@ -102,7 +102,8 @@ const Header = (props: any) => {
             className="flex gap-x-6 text-ml headerLink"
           >
             {props?._site?.c_headerLinks?.map((link: any, index: number) => (
-              <div className="navbar-item" href="#">
+              <div className="navbar-item">
+                {/* <a>this is pert of aker tag</a> */}
                 {/* <span style={{ fontWeight: "bold" }}></span> */}
                 <div className="navbar">
                   <div className="dropdown">

@@ -186,8 +186,8 @@ const Footer = (props: any) => {
   // ));
   const countact = props?._site?.c_footerCta?.map((link: any) => (
     <div className="flex">
-      <img src={link.headermenu.url} width="20" />  
-    <a  className="navbar-item" href={link?.headermenus?.link} style={{marginTop:"5px"}}>
+      <img src={link.headermenu.url} width="20" alt=""/>  
+    <a className="navbar-item" href={link?.headermenus?.link} style={{marginTop:"5px"}}>
       
       <span style={{marginLeft:"10px",marginRight:"20px"}}>{link?.headermenus?.label}</span>
       
@@ -204,7 +204,7 @@ const Footer = (props: any) => {
           <div className="store-locator">
             <div className="company-logo">
               {/* <img src={props._site.c_mgmTimberLogo.url} alt="logo" width="150"/> */}
-              <img src={footerLOgo} />
+              <img src={footerLOgo} alt=""/>
 
             </div>
             <div className="countact grid grid-cols-2 gap-x-4 gap-y-5">{countact}</div>
@@ -274,7 +274,7 @@ const Footer = (props: any) => {
                         <img
                           style={{ width: "30px", height: "28px" }}
                           src={res.icon.url}
-                        ></img>
+                        alt=""></img>
                       </a>
                     </>
                   );
