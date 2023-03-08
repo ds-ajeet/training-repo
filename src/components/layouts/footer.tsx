@@ -216,9 +216,9 @@ const Footer = (props: any) => {
               {/* {Headercountact} */}
             <ul className="pt-4">
               <li className="pt-4">
-                <a href="#" title="">
+                
                   {customerService}
-                </a>
+               
               </li>
             </ul>
           </div>
@@ -226,9 +226,9 @@ const Footer = (props: any) => {
             <h2>{props._site.c_aboutMgm.headerLinkHeading}</h2>
             <ul className="f_abouts pt-4">
               <li style={{ paddingTop: "15px" }}>
-                <a href="#" title="">
+                
                   {Aboutm}
-                </a>
+                
               </li>
             </ul>
           </div>

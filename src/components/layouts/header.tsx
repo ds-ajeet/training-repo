@@ -115,12 +115,12 @@ const Header = (props: any) => {
 
                       <div className="rows">
                         <div className="columns">
-                          <div>
+                          <div className="text-black">
                               {props?._site?.c_submenu?.map((item: any, indexes: number) => (
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3 className="text-black">
+                                      <h3>
                                         {item.heading}
                                         </h3>
                                       {item?.cta?.map((data: any) => (
@@ -134,12 +134,12 @@ const Header = (props: any) => {
                                 </>
                               ))}
                            </div>
-                           <div>
+                           <div className="text-black">
                            {props?._site?.c_submenutwo?.map((item: any, indexes: number) => (
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3 className="text-black">{item.heading}</h3>
+                                      <h3>{item.heading}</h3>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -151,12 +151,12 @@ const Header = (props: any) => {
                                 </>
                               ))}
                            </div>
-                           <div>
+                           <div className="text-black">
                             {props?._site?.c_submenuthree?.map((item: any, indexes: number) => (
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3 className="text-black">{item.heading}</h3>
+                                      <h3>{item.heading}</h3>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -168,12 +168,12 @@ const Header = (props: any) => {
                                 </>
                               ))}
                               </div>
-                           <div>
+                           <div className="text-black">
                            {props?._site?.c_submenufour?.map((item: any, indexes: number) => (
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3 className="text-black">{item.heading}</h3>
+                                      <h3>{item.heading}</h3>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -185,12 +185,12 @@ const Header = (props: any) => {
                                 </>
                               ))}
                            </div>
-                           <div>
+                           <div className="text-black">
                            {props?._site?.c_submenufive?.map((item: any, indexes: number) => (
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3 className="text-black">{item.heading}</h3>
+                                      <h3>{item.heading}</h3>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
@@ -202,12 +202,12 @@ const Header = (props: any) => {
                                 </>
                               ))}
                            </div>
-                           <div>
+                           <div className="text-black">
                            {props?._site?.c_submenussix?.map((item: any, indexes: number) => (
                                 <>
                                   {index == indexes ? (
                                     <>
-                                      <h3 className="text-black">{item.heading}</h3>
+                                      <h3>{item.heading}</h3>
                                       {item?.cta?.map((data: any) => (
                                         <>
                                           <a href="#">{data.label}</a>
